@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-1a25dc43931970524366354b0e27e497"}, "mark": "square", "encoding": {"color": {"type": "ordinal", "field": "start_year", "title": "Year"}, "x": {"type": "nominal", "field": "genus_and_species", "sort": {"field": "determined_year", "op": "max", "order": "ascending"}, "title": "Species"}, "y": {"type": "nominal", "field": "type_status", "title": "Type"}}, "height": 200, "title": "Order: Indeterminado", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-1a25dc43931970524366354b0e27e497": [{"cataloged_year": 2001, "count": "1", "class": "Copepoda", "kingdom": "Animalia", "genus": "Indeterminado", "species": "Sp", "genus_and_species": "Indeterminado sp", "type_status": "Holotipo", "determiner_first_and_last_name": null, "determiner_first_name": null, "determiner_last_name": null, "depth": "0", "species_author": null, "order": "Indeterminado", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Indeterminado", "subfamily": "Indeterminado", "tribe": "Indeterminado", "determined_year": null, "start_year": 1998.0, "holotipo_year": null}, {"cataloged_year": 2001, "count": "1", "class": "Copepoda", "kingdom": "Animalia", "genus": "Indeterminado", "species": "Sp", "genus_and_species": "Indeterminado sp", "type_status": "Holotipo", "determiner_first_and_last_name": null, "determiner_first_name": null, "determiner_last_name": null, "depth": "0", "species_author": null, "order": "Indeterminado", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Indeterminado", "subfamily": "Indeterminado", "tribe": "Indeterminado", "determined_year": null, "start_year": 1998.0, "holotipo_year": null}, {"cataloged_year": 2003, "count": "1", "class": "Ostracoda", "kingdom": "Animalia", "genus": "Indeterminado", "species": "Sp", "genus_and_species": "Indeterminado sp", "type_status": "Paratipo", "determiner_first_and_last_name": null, "determiner_first_name": null, "determiner_last_name": null, "depth": "0", "species_author": null, "order": "Indeterminado", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Indeterminado", "subfamily": "Indeterminado", "tribe": "Indeterminado", "determined_year": null, "start_year": 2000.0, "holotipo_year": null}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
