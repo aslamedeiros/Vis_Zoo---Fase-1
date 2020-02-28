@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-0b3be0404643261045912a0efc03548a"}, "mark": "circle", "encoding": {"color": {"type": "nominal", "field": "type_status", "legend": {"title": "Type Status"}, "scale": {"domain": ["Sintipo", "Lectotipo", "Paralectotipo", "Material tipo", "Neotipo", "Topotipo", "Co-tipo", "Tipo"], "range": ["#d62729", "#f58519", "#d95f03", "#d8b5a5", "#d95f02", "#8c6d31", "#bab0ac", "#79706e"]}, "sort": ["Sintipo", "Lectotipo", "Paralectotipo", "Material tipo", "Neotipo", "Topotipo", "Co-tipo", "Tipo"]}, "size": {"type": "quantitative", "field": "count", "legend": {"title": "Quantity"}}, "x": {"type": "ordinal", "field": "start_year", "title": "Year"}, "y": {"type": "quantitative", "field": "min_depth", "scale": {"domain": [1950.0, 0.0]}, "title": "Depth"}}, "title": "Depth of other types cataloged per year", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-0b3be0404643261045912a0efc03548a": [{"start_year": 1903.0, "min_depth": "0", "type_status": "Co-tipo", "count": 1}, {"start_year": 1903.0, "min_depth": "0", "type_status": "Paralectotipo", "count": 3}, {"start_year": 1903.0, "min_depth": "100", "type_status": "Lectotipo", "count": 1}, {"start_year": 1914.0, "min_depth": "0", "type_status": "Sintipo", "count": 1}, {"start_year": 1948.0, "min_depth": "0", "type_status": "Neotipo", "count": 1}, {"start_year": 1952.0, "min_depth": "0", "type_status": "Sintipo", "count": 1}, {"start_year": 1953.0, "min_depth": "0", "type_status": "Neotipo", "count": 1}, {"start_year": 1964.0, "min_depth": "0", "type_status": "Sintipo", "count": 1}, {"start_year": 1965.0, "min_depth": "0", "type_status": "Sintipo", "count": 2}, {"start_year": 1971.0, "min_depth": "0", "type_status": "Neotipo", "count": 1}, {"start_year": 1973.0, "min_depth": "0", "type_status": "Tipo", "count": 1}, {"start_year": 1986.0, "min_depth": "0", "type_status": "Material tipo", "count": 1}, {"start_year": 1988.0, "min_depth": "0", "type_status": "Lectotipo", "count": 1}, {"start_year": 1994.0, "min_depth": "0", "type_status": "Lectotipo", "count": 1}, {"start_year": 1998.0, "min_depth": "0", "type_status": "Neotipo", "count": 1}, {"start_year": 2000.0, "min_depth": "0", "type_status": "Material tipo", "count": 1}, {"start_year": 2000.0, "min_depth": "0", "type_status": "Topotipo", "count": 1}, {"start_year": 2001.0, "min_depth": "60", "type_status": "Neotipo", "count": 1}, {"start_year": 2002.0, "min_depth": "0", "type_status": "Topotipo", "count": 1}, {"start_year": 2002.0, "min_depth": "1950", "type_status": "Material tipo", "count": 1}, {"start_year": 2005.0, "min_depth": "0", "type_status": "Topotipo", "count": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
