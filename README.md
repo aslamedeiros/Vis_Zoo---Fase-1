@@ -31,6 +31,9 @@ pip install -r requirements.txt
 > - **waffles:** pasta que armazena os *Waffle Charts* das coleções do Museu por departamento.
 
 ### Arquivos:
+> - **Planilha geral Atualizda FINAL com correções.xlsx:** Base de dados `crustacea`.
+> - **db.csv:** Base de dados `crustacea` pré-processada (alguns nomes e formatos de colunas foram ajustados). OBS: esse é o arquivo importado nos notebooks de visualização dessa base.
+> - **Dados gerais de coleção MN_29_09_19 enviado KELLNER_Asla.xlsx:** Base de dados agregada das coleções do Museu Nacional. 
 > - **DB_exploration.ipynb:** IPython notebook com detalhes sobre a exploração e os ajustes realizados na base de dados `crustacea`.
 > - **Types_counts_per_year.ipynb:** notebook para criação dos gráficos da contagem de Tipos por ano.
 > - **Types_per_researcher.ipynb:** contém o código usado para criação dos gráficos de Tipos por pesquisador.
@@ -39,7 +42,7 @@ pip install -r requirements.txt
 
 
 -----
-**Nota:** Esse projeto ainda é um trabalho em progresso e as visualizações aqui criadas estão em constante alteração. 
+**Nota:** Esse projeto ainda é um trabalho em progresso e as visualizações aqui criadas estão em constante aperfeiçoamento. 
 
 -----
 
