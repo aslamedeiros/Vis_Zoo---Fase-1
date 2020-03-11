@@ -8,7 +8,7 @@ Visualizações das bases de dados e coleções do Museu Nacional. Esse reposit�
 Todo o código foi desenvolvido em Python 3, com uma distribuição [Anaconda](https://www.anaconda.com/distribution/). A instalação dessa distribuição é opcional. No entanto, para garantir que todo o código funcionará corretamente, é necessária a instalação das bibliotecas listadas a seguir: 
 
 ```
-altair - numpy - pandas - pathlib2 - pywaffle
+altair - matplotlib - numpy - pandas - pathlib2 - pywaffle
 ```
 
 Para instalar cada uma delas, basta executar o seguinte comando em uma instância do terminal:
