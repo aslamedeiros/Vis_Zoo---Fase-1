@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-a8d5a8f073a84771f3594cfe726bc75f"}, "mark": {"type": "circle", "color": "red", "size": 60}, "encoding": {"size": {"type": "quantitative", "field": "count"}, "x": {"type": "ordinal", "field": "determined_year", "title": "Year"}, "y": {"type": "nominal", "field": "order", "sort": {"field": "count", "op": "mean", "order": "descending"}, "title": "Order"}}, "height": 500, "title": "Number of holotypes of each order per year", "width": 680, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-a8d5a8f073a84771f3594cfe726bc75f": [{"order": "Amphipoda", "determined_year": 1975, "count": 1}, {"order": "Amphipoda", "determined_year": 1987, "count": 1}, {"order": "Amphipoda", "determined_year": 1988, "count": 2}, {"order": "Amphipoda", "determined_year": 1995, "count": 1}, {"order": "Amphipoda", "determined_year": 1996, "count": 1}, {"order": "Amphipoda", "determined_year": 1997, "count": 6}, {"order": "Amphipoda", "determined_year": 1998, "count": 1}, {"order": "Amphipoda", "determined_year": 1999, "count": 1}, {"order": "Amphipoda", "determined_year": 2000, "count": 5}, {"order": "Amphipoda", "determined_year": 2001, "count": 7}, {"order": "Amphipoda", "determined_year": 2002, "count": 2}, {"order": "Amphipoda", "determined_year": 2003, "count": 8}, {"order": "Amphipoda", "determined_year": 2004, "count": 2}, {"order": "Amphipoda", "determined_year": 2005, "count": 2}, {"order": "Amphipoda", "determined_year": 2007, "count": 19}, {"order": "Amphipoda", "determined_year": 2008, "count": 9}, {"order": "Amphipoda", "determined_year": 2010, "count": 6}, {"order": "Amphipoda", "determined_year": 2011, "count": 3}, {"order": "Amphipoda", "determined_year": 2013, "count": 3}, {"order": "Amphipoda", "determined_year": 2015, "count": 2}, {"order": "Anomopoda", "determined_year": 2005, "count": 1}, {"order": "Anomopoda", "determined_year": 2007, "count": 1}, {"order": "Anostraca", "determined_year": 1993, "count": 2}, {"order": "Anostraca", "determined_year": 2016, "count": 2}, {"order": "Arguloida", "determined_year": 1978, "count": 1}, {"order": "Arguloida", "determined_year": 1995, "count": 1}, {"order": "Cumacea", "determined_year": 1966, "count": 1}, {"order": "Cumacea", "determined_year": 1971, "count": 1}, {"order": "Cumacea", "determined_year": 2010, "count": 1}, {"order": "Cyclopoida", "determined_year": 2007, "count": 1}, {"order": "Cyclopoida", "determined_year": 2015, "count": 2}, {"order": "Decapoda", "determined_year": 1966, "count": 2}, {"order": "Decapoda", "determined_year": 1968, "count": 1}, {"order": "Decapoda", "determined_year": 1969, "count": 1}, {"order": "Decapoda", "determined_year": 1978, "count": 2}, {"order": "Decapoda", "determined_year": 1987, "count": 1}, {"order": "Decapoda", "determined_year": 1989, "count": 1}, {"order": "Decapoda", "determined_year": 1997, "count": 1}, {"order": "Decapoda", "determined_year": 2001, "count": 1}, {"order": "Decapoda", "determined_year": 2003, "count": 2}, {"order": "Decapoda", "determined_year": 2005, "count": 4}, {"order": "Decapoda", "determined_year": 2007, "count": 1}, {"order": "Decapoda", "determined_year": 2008, "count": 2}, {"order": "Decapoda", "determined_year": 2010, "count": 3}, {"order": "Decapoda", "determined_year": 2012, "count": 1}, {"order": "Isopoda", "determined_year": 1955, "count": 1}, {"order": "Isopoda", "determined_year": 1958, "count": 14}, {"order": "Isopoda", "determined_year": 1965, "count": 5}, {"order": "Isopoda", "determined_year": 1967, "count": 7}, {"order": "Isopoda", "determined_year": 1969, "count": 2}, {"order": "Isopoda", "determined_year": 1971, "count": 5}, {"order": "Isopoda", "determined_year": 1972, "count": 4}, {"order": "Isopoda", "determined_year": 1978, "count": 1}, {"order": "Isopoda", "determined_year": 1991, "count": 9}, {"order": "Isopoda", "determined_year": 1995, "count": 8}, {"order": "Isopoda", "determined_year": 1998, "count": 1}, {"order": "Isopoda", "determined_year": 2001, "count": 1}, {"order": "Isopoda", "determined_year": 2002, "count": 1}, {"order": "Isopoda", "determined_year": 2003, "count": 1}, {"order": "Isopoda", "determined_year": 2004, "count": 1}, {"order": "Isopoda", "determined_year": 2005, "count": 1}, {"order": "Isopoda", "determined_year": 2007, "count": 2}, {"order": "Isopoda", "determined_year": 2015, "count": 3}, {"order": "Monstrilloida", "determined_year": 2000, "count": 4}, {"order": "Podocopida", "determined_year": 2000, "count": 1}, {"order": "Podocopida", "determined_year": 2001, "count": 2}, {"order": "Podocopida", "determined_year": 2002, "count": 3}, {"order": "Poecilostomatoida", "determined_year": 1987, "count": 2}, {"order": "Poecilostomatoida", "determined_year": 2012, "count": 1}, {"order": "Poecilostomatoida", "determined_year": 2015, "count": 1}, {"order": "Siphonostomatoida", "determined_year": 1994, "count": 1}, {"order": "Siphonostomatoida", "determined_year": 1995, "count": 2}, {"order": "Siphonostomatoida", "determined_year": 1996, "count": 4}, {"order": "Siphonostomatoida", "determined_year": 1997, "count": 5}, {"order": "Siphonostomatoida", "determined_year": 1998, "count": 6}, {"order": "Siphonostomatoida", "determined_year": 1999, "count": 1}, {"order": "Siphonostomatoida", "determined_year": 2013, "count": 2}, {"order": "Siphonostomatoida", "determined_year": 2015, "count": 5}, {"order": "Stomatopoda", "determined_year": 1978, "count": 1}, {"order": "Tanaidacea", "determined_year": 1971, "count": 1}, {"order": "Tanaidacea", "determined_year": 1973, "count": 3}, {"order": "Tanaidacea", "determined_year": 1978, "count": 1}, {"order": "Tanaidacea", "determined_year": 2006, "count": 1}, {"order": "Tanaidacea", "determined_year": 2010, "count": 1}, {"order": "Tanaidacea", "determined_year": 2013, "count": 4}, {"order": "Tanaidacea", "determined_year": 2015, "count": 2}, {"order": "Thoracica", "determined_year": 1997, "count": 1}, {"order": "Thoracica", "determined_year": 2002, "count": 2}, {"order": "Thoracica", "determined_year": 2005, "count": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

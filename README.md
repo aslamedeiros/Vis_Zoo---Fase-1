@@ -29,6 +29,7 @@ pip install -r requirements.txt
 > - **depth:** pasta que contém todas as visualizações de profundidade dos animais catalogados.
 > - **types:** contém todos os gráficos de tipos (por pesquisador, por espécie e por ano).
 > - **waffles:** pasta que armazena os *Waffle Charts* das coleções do Museu por departamento.
+> - **viz_old:** essa pasta contém arquivos de visualização criados no início do projeto. Seu objetivo é apenas armazenar o histório de mudanças nos gráficos. As versões mais recentes e aprimoradas de cada um dos seus arquivos estão presentes nas três pastas citadas acima (`depth`, `types` e `waffles`). 
 
 ### Arquivos:
 > - **Planilha geral Atualizda FINAL com correções.xlsx:** Base de dados `crustacea`.

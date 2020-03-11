@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-3d1efa4fbcc5e8cbf2459089cc6612da"}, "mark": "square", "encoding": {"color": {"type": "ordinal", "field": "determined_year", "title": "Determined Year"}, "x": {"type": "nominal", "field": "genus_and_species", "sort": {"field": "determined_year", "op": "max", "order": "ascending"}, "title": "Species"}, "y": {"type": "nominal", "field": "type_status", "title": "Type"}}, "height": 200, "title": "Order: Stomatopoda", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-3d1efa4fbcc5e8cbf2459089cc6612da": [{"cataloged_year": 1995, "count": "3", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Hemisquilla", "species": "Braziliensis", "genus_and_species": "Hemisquilla Braziliensis", "type_status": "Co-tipo", "determiner_first_and_last_name": "Carlos Moreira", "determiner_first_name": "Carlos", "determiner_last_name": "Moreira", "depth": "0", "species_author": "(Moreira, 1903)", "order": "Stomatopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Hemisquillidae", "subfamily": "Pseudosquillinae", "tribe": "Pseudosquillini", "determined_year": 1903, "holotipo_year": "1903", "counts": 1}, {"cataloged_year": 1995, "count": "1", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Squilla", "species": "Brasiliensis", "genus_and_species": "Squilla Brasiliensis", "type_status": "Paratipo", "determiner_first_and_last_name": "Maria Correa", "determiner_first_name": "Maria", "determiner_last_name": "Correa", "depth": "0", "species_author": "Calman, 1917", "order": "Stomatopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Squillidae", "subfamily": "Squillinae", "tribe": "Squillini", "determined_year": 1903, "holotipo_year": "1917", "counts": 1}, {"cataloged_year": 2006, "count": "2", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Neogonodactylus", "species": "Spinulosus", "genus_and_species": "Neogonodactylus Spinulosus", "type_status": "Neotipo", "determiner_first_and_last_name": "Celso Rodrigues", "determiner_first_name": "Celso", "determiner_last_name": "Rodrigues", "depth": "60", "species_author": "(Schmitt, 1924)", "order": "Stomatopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Gonodactylidae", "subfamily": "Gonodactylinae", "tribe": "Gonodactylini", "determined_year": 2002, "holotipo_year": "1924", "counts": 1}, {"cataloged_year": 1995, "count": "1", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Meiosquilla", "species": "Schmittii", "genus_and_species": "Meiosquilla Schmittii", "type_status": "Holotipo", "determiner_first_and_last_name": "Alceu Castro", "determiner_first_name": "Alceu", "determiner_last_name": "Castro", "depth": "0", "species_author": "(Lemos de Castro, 1955)", "order": "Stomatopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Squillidae", "subfamily": "Squillinae", "tribe": "Squillini", "determined_year": 1978, "holotipo_year": "1955", "counts": 3}, {"cataloged_year": 1995, "count": "1", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Gonodactylus", "species": "Moraisi", "genus_and_species": "Gonodactylus Moraisi", "type_status": "Paratipo", "determiner_first_and_last_name": "Maria Correa", "determiner_first_name": "Maria", "determiner_last_name": "Correa", "depth": "0", "species_author": "Fausto-Filho & Castro, 1973", "order": "Stomatopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Gonodactylidae", "subfamily": "Gonodactylinae", "tribe": "Gonodactylini", "determined_year": 2000, "holotipo_year": "1973", "counts": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
