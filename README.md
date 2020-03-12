@@ -2,7 +2,6 @@
 
 Visualizações das bases de dados e coleções do Museu Nacional. Esse repositório é constituído por arquivos pertencentes ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos nele gerados são de propriedade dessa instituição. 
 
-
 ## Requisitos:
 
 Todo o código foi desenvolvido em Python 3, com uma distribuição [Anaconda](https://www.anaconda.com/distribution/). A instalação dessa distribuição é opcional. No entanto, para garantir que todo o código funcionará corretamente, é necessária a instalação das bibliotecas listadas a seguir: 
@@ -22,6 +21,22 @@ Todas as bibliotecas necessárias, assim como suas versões utilizadas para o de
 ```bash
 pip install -r requirements.txt
 ```
+
+-----
+**OBS:** Todo o código aqui apresentado foi desenvolvido em Linux (distribuição Ubuntu 19.04) e, para que funcione corretamente no Windows, deve ser feito um ajuste no caminho de pasta de cada gráfico, conforme o exemplo abaixo: 
+
+> Considere o seguinte caminho de pasta para salvar o arquivo denominado `grafico.svg`:
+```bash
+./caminho/para/pasta/grafico.svg
+```
+
+> Este deve ser alterado para: 
+```bash
+.\\caminho\\para\\pasta\\grafico.svg
+```
+
+-----
+
 
 ## Conteúdo:
 
