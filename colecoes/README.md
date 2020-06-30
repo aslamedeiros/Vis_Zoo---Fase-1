@@ -8,6 +8,7 @@ Esta pasta armazena os *Waffle Charts* das coleções do museu por departamento.
 - **Waffle_charts.ipynb:** notebook com código em Python 3 para criação dos gráficos de informações agregadas das coleções. 
 - **Dados gerais de coleção MN_29_09_19 enviado KELLNER_Asla.xlsx:** Base de dados agregada das coleções do Museu Nacional. 
 
+<br>
 
 -----
 **Nota:** Esse projeto ainda é um trabalho em progresso e as visualizações aqui criadas estão em constante aperfeiçoamento. 
