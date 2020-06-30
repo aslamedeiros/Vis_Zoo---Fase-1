@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-85f2f6e6476e527c081046312e0465a9"}, "mark": {"type": "circle", "size": 60}, "encoding": {"color": {"type": "nominal", "field": "type_status", "scale": {"domain": ["Tipo", "Lectotipo", "Paralectotipo", "Sintipo", "Neotipo"], "range": ["#79706e", "#f58519", "#d95f03", "#d62729", "#d95f02"]}, "title": "type"}, "size": {"type": "quantitative", "field": "count", "scale": {"type": "bin-ordinal"}}, "x": {"type": "ordinal", "field": "start_year", "title": "Year"}, "y": {"type": "nominal", "field": "order", "sort": {"field": "count", "op": "max", "order": "descending"}, "title": "Order"}}, "height": 400, "title": "Number of types of each order per year", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-85f2f6e6476e527c081046312e0465a9": [{"order": "Amphipoda", "start_year": 2000.0, "type_status": "Tipo", "count": 1}, {"order": "Amphipoda", "start_year": 2005.0, "type_status": "Tipo", "count": 1}, {"order": "Decapoda", "start_year": 1903.0, "type_status": "Lectotipo", "count": 1}, {"order": "Decapoda", "start_year": 1903.0, "type_status": "Paralectotipo", "count": 3}, {"order": "Decapoda", "start_year": 1965.0, "type_status": "Sintipo", "count": 2}, {"order": "Decapoda", "start_year": 1986.0, "type_status": "Tipo", "count": 1}, {"order": "Isopoda", "start_year": 1948.0, "type_status": "Neotipo", "count": 1}, {"order": "Isopoda", "start_year": 1952.0, "type_status": "Sintipo", "count": 1}, {"order": "Isopoda", "start_year": 1953.0, "type_status": "Neotipo", "count": 1}, {"order": "Isopoda", "start_year": 1964.0, "type_status": "Sintipo", "count": 1}, {"order": "Isopoda", "start_year": 1971.0, "type_status": "Neotipo", "count": 1}, {"order": "Isopoda", "start_year": 1973.0, "type_status": "Tipo", "count": 1}, {"order": "Isopoda", "start_year": 1988.0, "type_status": "Lectotipo", "count": 1}, {"order": "Stomatopoda", "start_year": 1903.0, "type_status": "Tipo", "count": 1}, {"order": "Stomatopoda", "start_year": 2001.0, "type_status": "Neotipo", "count": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

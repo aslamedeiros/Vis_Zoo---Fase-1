@@ -37,7 +37,6 @@ pip install -r requirements.txt
 
 -----
 
-
 ## Conteúdo:
 
 ### Pastas:
