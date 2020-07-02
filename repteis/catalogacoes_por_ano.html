@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-53e0b568502cd62fcfab8b69c7133c73"}, "mark": "bar", "encoding": {"x": {"type": "ordinal", "field": "year", "title": "Ano de Coleta"}, "y": {"type": "quantitative", "field": "counts", "title": "Contagem"}}, "title": "Number of catalogations per year", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-53e0b568502cd62fcfab8b69c7133c73": [{"year": 0, "counts": 5}, {"year": 1824, "counts": 1}, {"year": 1876, "counts": 74}, {"year": 1901, "counts": 3}, {"year": 1902, "counts": 2}, {"year": 1903, "counts": 1}, {"year": 1905, "counts": 1}, {"year": 1906, "counts": 1}, {"year": 1907, "counts": 4}, {"year": 1912, "counts": 4}, {"year": 1913, "counts": 2}, {"year": 1914, "counts": 1}, {"year": 1915, "counts": 6}, {"year": 1916, "counts": 3}, {"year": 1917, "counts": 1}, {"year": 1919, "counts": 3}, {"year": 1922, "counts": 2}, {"year": 1923, "counts": 3}, {"year": 1924, "counts": 1}, {"year": 1925, "counts": 1}, {"year": 1926, "counts": 1}, {"year": 1928, "counts": 1}, {"year": 1931, "counts": 2}, {"year": 1932, "counts": 1}, {"year": 1933, "counts": 3}, {"year": 1935, "counts": 2}, {"year": 1936, "counts": 3}, {"year": 1937, "counts": 29}, {"year": 1938, "counts": 1}, {"year": 1939, "counts": 205}, {"year": 1940, "counts": 55}, {"year": 1941, "counts": 17}, {"year": 1942, "counts": 262}, {"year": 1943, "counts": 112}, {"year": 1944, "counts": 161}, {"year": 1945, "counts": 391}, {"year": 1946, "counts": 51}, {"year": 1947, "counts": 102}, {"year": 1948, "counts": 106}, {"year": 1949, "counts": 27}, {"year": 1950, "counts": 54}, {"year": 1951, "counts": 33}, {"year": 1952, "counts": 57}, {"year": 1953, "counts": 46}, {"year": 1954, "counts": 30}, {"year": 1955, "counts": 31}, {"year": 1956, "counts": 52}, {"year": 1957, "counts": 65}, {"year": 1958, "counts": 33}, {"year": 1959, "counts": 21}, {"year": 1960, "counts": 14}, {"year": 1961, "counts": 20}, {"year": 1962, "counts": 10}, {"year": 1963, "counts": 47}, {"year": 1964, "counts": 56}, {"year": 1965, "counts": 35}, {"year": 1966, "counts": 24}, {"year": 1967, "counts": 10}, {"year": 1968, "counts": 26}, {"year": 1969, "counts": 51}, {"year": 1970, "counts": 33}, {"year": 1971, "counts": 44}, {"year": 1972, "counts": 34}, {"year": 1973, "counts": 56}, {"year": 1974, "counts": 29}, {"year": 1975, "counts": 134}, {"year": 1976, "counts": 117}, {"year": 1977, "counts": 28}, {"year": 1978, "counts": 41}, {"year": 1979, "counts": 55}, {"year": 1980, "counts": 44}, {"year": 1981, "counts": 53}, {"year": 1982, "counts": 76}, {"year": 1983, "counts": 51}, {"year": 1984, "counts": 91}, {"year": 1985, "counts": 159}, {"year": 1986, "counts": 483}, {"year": 1987, "counts": 627}, {"year": 1988, "counts": 508}, {"year": 1989, "counts": 396}, {"year": 1990, "counts": 293}, {"year": 1991, "counts": 443}, {"year": 1992, "counts": 270}, {"year": 1993, "counts": 289}, {"year": 1994, "counts": 469}, {"year": 1995, "counts": 309}, {"year": 1996, "counts": 365}, {"year": 1997, "counts": 515}, {"year": 1998, "counts": 488}, {"year": 1999, "counts": 558}, {"year": 2000, "counts": 473}, {"year": 2001, "counts": 309}, {"year": 2002, "counts": 464}, {"year": 2003, "counts": 340}, {"year": 2004, "counts": 361}, {"year": 2005, "counts": 454}, {"year": 2006, "counts": 478}, {"year": 2007, "counts": 650}, {"year": 2008, "counts": 1239}, {"year": 2009, "counts": 942}, {"year": 2010, "counts": 774}, {"year": 2011, "counts": 602}, {"year": 2012, "counts": 564}, {"year": 2013, "counts": 574}, {"year": 2014, "counts": 411}, {"year": 2015, "counts": 590}, {"year": 2016, "counts": 125}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
