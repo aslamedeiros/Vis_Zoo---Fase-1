@@ -1,0 +1,37 @@
+Comentar sobre os tipos para os répteis. São importantes para exploração?
+
+grafico de altitude: 
+	- remover outlier acima de 7000   - (OK!)
+	- ordenar por variância (separar em 3 grupos - ou 2 grupos, destacar o do meio) 
+      COMENTARIOS:
+          Separei em 2 grupos pela contagem (>=2 e <2) e ordenei por seu valor máximo de altitude.
+          Falar para Asla: tentei ordenar pela variância e pelo range (max-min), mas ainda apresentou bastante dispersão.    
+    
+	- ou separar por ordem                        
+      COMENTARIOS: 
+          (facetado não ficou bom. A grande maioria dos pontos com altitude preenchida é de Squamata. Talvez se conseguir recuperar a altitude pela API com lat long, essa opção funcione)
+          OBS: com altitude relatada, só temos duas ordens distintas.
+         
+	- inferir altitude por meio da lat long       - (para depois! preciso usar API do google)
+    
+	- apagar gráfico só com a espécie no eixo X   - (OK!)
+    
+	- OBS: ser consistente com a paleta de cores (manter mesmo critério para colorir)
+	- colorir gráfico com gênero e espécie de acordo com a ordem   - (OK!) OBS: usei a mesma paleta que ela sugeriu
+
+
+gráfico das contagens por Estados:
+	- manter ordenação por região (colocar linhas separando as regiões)
+    - separar em três períodos: até 1938, 1939-1985, após 1985.
+
+
+gráfico das contagens por País:
+	- tirar Brasil (desafio: fazer caber na tela)
+
+
+gráfico lat long:
+	- tirar o grid (manter apenas equador)
+	- ajustar paleta de cores para ficar igual aos demais
+
+
+Replicar gráfico do sumô para a contagem dos bichos por pesquisador  (para depois)
