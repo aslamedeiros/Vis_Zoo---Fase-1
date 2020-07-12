@@ -20,18 +20,20 @@ grafico de altitude:
 	- colorir gráfico com gênero e espécie de acordo com a ordem   - (OK!) OBS: usei a mesma paleta que ela sugeriu
 
 
-gráfico das contagens por Estados:
+gráfico das contagens por Estados:    (OBS: ordenei pela soma das contagens - ficou semelhante à média)
 	- manter ordenação por região (colocar linhas separando as regiões)
-    - separar em três períodos: até 1938, 1939-1985, após 1985.
+        Ainda não consegui colocar essas linhas... :/
+        
+    - separar em três períodos: até 1938, 1939-1985, após 1985.  - (OK!)
 
 
 gráfico das contagens por País:
-	- tirar Brasil (desafio: fazer caber na tela)
+	- tirar Brasil (desafio: fazer caber na tela)  - (OK!)
 
 
 gráfico lat long:
-	- tirar o grid (manter apenas equador)
-	- ajustar paleta de cores para ficar igual aos demais
+	- tirar o grid (manter apenas equador)                - (OK!)
+	- ajustar paleta de cores para ficar igual aos demais - (OK!)
 
 
 Replicar gráfico do sumô para a contagem dos bichos por pesquisador  (para depois)
