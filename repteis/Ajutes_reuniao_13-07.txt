@@ -1,0 +1,20 @@
+gráfico de altitude:
+	- fazer versão com apenas gênero no eixo x
+	- representar com marca gráfica diferente de acordo com info. na coluna Qualificador_atual
+	- genero no eixo X, focar em Squamata (fazer um gráfico por ordem)
+	
+gráfico por determinador:
+	- excluir ordem caudata (TODOS OS GRÁFICOS)
+
+gráfico por coletor:
+	- separar em 2: coletores mais frequentes e esporádicos
+	- estabelecer corte de acordo com o volume coletado por individuo
+	
+Informações de tipo: NOTAS TAXONÔMICAS
+OBS: topotipo não é tipo
+
+fazer gráfico das contagens por biomas (recuperar a partir das coordenadas - lat e long)
+
+gráfico dinâmico: fazer uma versão por famílias
+
+sazonalidade: replicar gráfico que fiz para o trabalho final de DataViz (do casamento, com ano no eixo Y e meses no eixo X - talvez separar por família ou ordem)
