@@ -1,20 +1,25 @@
 gráfico de altitude:
-	- fazer versão com apenas gênero no eixo x
-	- representar com marca gráfica diferente de acordo com info. na coluna Qualificador_atual
-	- genero no eixo X, focar em Squamata (fazer um gráfico por ordem)
-	
+	- fazer versão com apenas gênero no eixo x  - (OK!)
+	- representar com marca gráfica diferente de acordo com info. na coluna Qualificador_atual  
+        OBS: representei na tooltip - tem muitos valores NAN (fica dificil enxergar diferentes formas)
+	- genero no eixo X, focar em Squamata (fazer um gráfico por ordem)  - (OK!)
+
 gráfico por determinador:
-	- excluir ordem caudata (TODOS OS GRÁFICOS)
+	- excluir ordem caudata (TODOS OS GRÁFICOS)  - (OK!)
 
 gráfico por coletor:
-	- separar em 2: coletores mais frequentes e esporádicos
-	- estabelecer corte de acordo com o volume coletado por individuo
-	
-Informações de tipo: NOTAS TAXONÔMICAS
+	- separar em 2: coletores mais frequentes e esporádicos            - (OK!)
+	- estabelecer corte de acordo com o volume coletado por individuo  - (OK! selecionei os top 50 - cabe na tela)
+
+    
+Informações de tipo estão na coluna NOTAS TAXONÔMICAS
 OBS: topotipo não é tipo
 
-fazer gráfico das contagens por biomas (recuperar a partir das coordenadas - lat e long)
+IDEIA: fazer gráfico das contagens por biomas (recuperar a partir das coordenadas - lat e long)
 
-gráfico dinâmico: fazer uma versão por famílias
+gráfico dinâmico lat-long: fazer uma versão por famílias
+    OBS: pensar como fazer isso. Tem muitas familias para codificar como uma paleta de cores só. Asla deu a ideia de fazer um por ordem e usar um degradê da cor daquela ordem. Mas assim não dá para identificar bem as famílias.  
 
+
+FAZER EM NOTEBOOK SEPARADO
 sazonalidade: replicar gráfico que fiz para o trabalho final de DataViz (do casamento, com ano no eixo Y e meses no eixo X - talvez separar por família ou ordem)
