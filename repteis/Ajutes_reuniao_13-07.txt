@@ -6,10 +6,12 @@ gráfico de altitude:
 
 gráfico por determinador:
 	- excluir ordem caudata (TODOS OS GRÁFICOS)  - (OK!)
+	- Fazer um gráfico com top 50 determinadores que tiveram mais anos de contribuição
 
 gráfico por coletor:
 	- separar em 2: coletores mais frequentes e esporádicos            - (OK!)
 	- estabelecer corte de acordo com o volume coletado por individuo  - (OK! selecionei os top 50 - cabe na tela)
+	- Fazer um gráfico com top 50 coletores que tiveram mais anos de contribuição
 
     
 Informações de tipo estão na coluna NOTAS TAXONÔMICAS
@@ -22,4 +24,4 @@ gráfico dinâmico lat-long: fazer uma versão por famílias
 
 
 FAZER EM NOTEBOOK SEPARADO
-sazonalidade: replicar gráfico que fiz para o trabalho final de DataViz (do casamento, com ano no eixo Y e meses no eixo X - talvez separar por família ou ordem)
+sazonalidade: replicar gráfico que fiz para o trabalho final de DataViz (do casamento, com ano no eixo Y e meses no eixo X - talvez separar por família ou ordem)   - (OK!)
