@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-b2e23489bd77ae13d2758e8498d1685f"}, "mark": "circle", "encoding": {"color": {"type": "nominal", "field": "ordem", "scale": {"domain": ["Squamata", "Testudines", "Crocodylia"], "range": ["#BF4417", "#D9CB0B", "#284021"]}, "title": "order"}, "size": {"type": "quantitative", "field": "counts", "scale": {}}, "tooltip": [{"type": "nominal", "field": "tipo"}, {"type": "quantitative", "field": "ano_coleta"}, {"type": "quantitative", "field": "counts"}], "x": {"type": "ordinal", "field": "ano_coleta", "title": "collected year"}, "y": {"type": "nominal", "field": "tipo", "sort": {"field": "tipo", "op": "count", "order": "descending"}, "title": "type"}}, "height": 150, "title": "Types per year", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b2e23489bd77ae13d2758e8498d1685f": [{"tipo": "C\u00f3tipo", "ano_coleta": 1941.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1957.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1964.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1985.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1988.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1989.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1990.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1991.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1994.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1995.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1997.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 1998.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2000.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2005.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2006.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2007.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2008.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2009.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2009.0, "ordem": "Testudines", "counts": 1}, {"tipo": "Hol\u00f3tipo", "ano_coleta": 2012.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Lect\u00f3tipo", "ano_coleta": 1937.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1947.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1956.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1981.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1984.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1985.0, "ordem": "Squamata", "counts": 9}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1986.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1987.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1988.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1989.0, "ordem": "Squamata", "counts": 4}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1990.0, "ordem": "#n/d", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1990.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1991.0, "ordem": "Squamata", "counts": 11}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1992.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1993.0, "ordem": "Squamata", "counts": 16}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1994.0, "ordem": "Squamata", "counts": 7}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1995.0, "ordem": "Squamata", "counts": 7}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1997.0, "ordem": "Squamata", "counts": 9}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1998.0, "ordem": "Squamata", "counts": 40}, {"tipo": "Par\u00e1tipo", "ano_coleta": 1999.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2000.0, "ordem": "Squamata", "counts": 33}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2001.0, "ordem": "Squamata", "counts": 4}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2002.0, "ordem": "Squamata", "counts": 4}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2004.0, "ordem": "Squamata", "counts": 1}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2006.0, "ordem": "Squamata", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2007.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2008.0, "ordem": "Squamata", "counts": 18}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2008.0, "ordem": "Testudines", "counts": 7}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2009.0, "ordem": "Squamata", "counts": 4}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2009.0, "ordem": "Testudines", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2011.0, "ordem": "Testudines", "counts": 2}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2012.0, "ordem": "Squamata", "counts": 9}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2013.0, "ordem": "Squamata", "counts": 3}, {"tipo": "Par\u00e1tipo", "ano_coleta": 2014.0, "ordem": "Squamata", "counts": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
