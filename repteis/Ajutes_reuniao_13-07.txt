@@ -1,3 +1,21 @@
+Reunião (27/07)
+
+Adicionar versão da base ao título dos gráficos.
+
+gráfico dos coletores/determinadores: exibir números de catálogo (iterativamente)
+
+Ano de coleta e ano de discrição: gráfico dos tipos
+
+sazonalidades: fazer gráfico da sazonalidade por espécies (com interatividade)
+densidade relativa (apenas meses no eixo X)
+
+gráfico com representatividade global (todos os pontos lat e long)
+
+enviar lista dos tipos sem data
+
+=================
+Reunião (13/07)
+
 gráfico de altitude:
 	- fazer versão com apenas gênero no eixo x  - (OK!)
 	- representar com marca gráfica diferente de acordo com info. na coluna Qualificador_atual  
