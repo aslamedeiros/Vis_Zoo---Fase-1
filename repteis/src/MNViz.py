@@ -57,14 +57,14 @@ def treat_taxon_columns(df, columns, inplace=True):
 
     
 # trying to catch year from string "dd/mm/YYYY"
-def catch_year(row):
-    if not str(row).find('/')==-1:
-        dates_values = str(row).split("/")
-        year = int(dates_values[-1])
-        month = int(dates_values[1])
-        return year
-    else:
-        return np.NaN
+# def catch_year(row):
+#     if not str(row).find('/')==-1:
+#         dates_values = str(row).split("/")
+#         year = int(dates_values[-1])
+#         month = int(dates_values[1])
+#         return year
+#     else:
+#         return np.NaN
     
     
 def str_with_nan2int(string):
@@ -72,3 +72,78 @@ def str_with_nan2int(string):
         return int(string)
     else:
         return np.NAN
+
+
+def getMonthAndYear(date):
+    '''
+    Tries to catch month and year from a string date in dd/mm/YYYY format. 
+    
+    This function treats for some anomalies found on National Museum Databases, such as: 
+        dd/mm/YY/ 
+        and 
+        ' '
+    
+    Inputs: 
+        date: a string date in dd/mm/YYYY format
+        
+    Outputs:
+        (month, year) tuple.
+        
+    p.s.: if the function is not able to infer month and year from the string date, it returns np.NAN for both.
+    '''
+    
+    month = np.NAN 
+    year = np.NAN
+    # tests if it's empty or NAN
+    if str(date).lower() == 'nan' or str(date) == ' ' or date == None:
+        return (month, year)
+    
+    elif not str(date).find('/')==-1:
+        dates_values = str(date).split("/")
+        year = int(dates_values[-1])
+        month = int(dates_values[1])
+        
+        return (month, year)
+    ## se a data tem duas / (dd/mm/aaaa)
+    elif str(date).count('/') == 2:
+        split_date = str(date).split('/')
+        year = int(split_date[-1])
+        month = int(split_date[1])
+        
+        return (month, year)
+    
+    else:
+        print(f"Couldn't figure out (month, year) for : {date}")
+        return (month, year)
+
+
+# corrects reptiles order Squama e Squamta
+def correct_squamata(string):
+    if str(string).lower() == 'squama' or str(string).lower() == 'squamta':
+        return 'Squamata'
+    else:
+        return str(string)
+    
+# substitutes #n/d form 'Nan'
+def correct_nd(string):
+    if str(string) == "#n/d":
+        return np.NAN
+    elif str(string).lower() == 'nan':
+        return np.NAN
+    else:
+        return string
+        
+
+def correct_type(type):
+    '''
+    Function to correct some typos in Type information keeping NAN as such.
+
+    input:
+        type: string of that animal's type
+
+    output:
+        corrected type (string)
+    '''
+    # detected_typos = {}
+    corrected_type = type.lower().strip().capitalize()
+    return corrected_type
