@@ -132,7 +132,17 @@ def correct_nd(string):
         return np.NAN
     else:
         return string
-        
+
+
+def convert2float(n):
+    '''
+    This function tries to convert the input to float. If not successful, returns NAN.
+    '''
+    try:
+        return float(n)
+    except:
+        return np.NAN
+
 
 def correct_type(type):
     '''
@@ -147,3 +157,48 @@ def correct_type(type):
     # detected_typos = {}
     corrected_type = type.lower().strip().capitalize()
     return corrected_type
+
+
+def brazilian_region(state):
+    '''
+    Given a state, this function returns the brazilian region for that state.
+    '''
+
+    state = str(state)
+    regions = {
+    'Rio de Janeiro':'SE',
+    'São Paulo':'SE',
+    'Espírito Santo': 'SE',
+    'Pernambuco':'NE',
+    'Santa Catarina':'S',
+    'Amazonas':'N',
+    'Goiás':'CO',
+    'Roraima':'N',
+    'Pará':'N',
+    'Mato Grosso':'CO',
+    'Acre': 'N',
+    'Bahia': 'NE',
+    'Minas Gerais': 'SE',
+    'Mato Grosso do Sul': 'CO',
+    'Paraná': 'S',
+    'Rondônia': 'N',
+    'Ceará': 'NE',
+    'Maranhão': 'N',
+    'Rio Grande do Sul': 'S',
+    'Paraíba': 'NE',
+    'Distrito Federal': 'CO',
+    'Alagoas': 'NE',
+    'Amapá':'N',
+    'Piauí': 'NE',
+    'Brasília': 'CO',
+    'Tocantins': 'N',
+    'Rio Grande do Norte': 'NE',
+    'Sergipe': 'NE',
+    'Minas Gerais/Goiás/Distrito Federal': 'CO',
+    'Santa Catarina-Rio Grande do Sul': 'S'
+    }
+
+    if state not in regions.keys():
+        return np.NAN
+    else:
+        return regions[est]
