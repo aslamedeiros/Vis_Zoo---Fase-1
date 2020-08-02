@@ -68,17 +68,11 @@ def treat_taxon_columns(df, columns, inplace=True):
     
     
 def str_with_nan2int(string):
-    try:
-        if not np.isnan(string):
-            return int(string)
-        else:
-            return np.NAN
-    except:
-        if str(string).lower() == 'nan':
-            return np.NaN
-        else:
-            return int
-            
+    if not np.isnan(string):
+        return int(string)
+    else:
+        return np.NAN
+
 
 def getMonthAndYear(date):
     '''
