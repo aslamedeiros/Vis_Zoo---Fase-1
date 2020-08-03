@@ -1,5 +1,12 @@
 Counts_per_researcher: 
-	'Determiner Last Name 1' tem o nome completo dos determinadores (1455 nomes faltando)
-	'Collector First Name 1' e 'Collector Last Name 1' tem 1059 nomes faltando.
+	- 'Determiner Last Name 1' tem o nome completo dos determinadores (1455 nomes faltando)
+	- 'Collector First Name 1' e 'Collector Last Name 1' tem 1059 nomes faltando.
 	
-OBS: coluna de tipos só tem 69 info. preenchidas (56 paratipos e 13 holotipos)
+
+Counts_per_family: 
+	- gráfico com ordens, ordenei pela soma das contagens
+	
+OBS: 
+	- Determined Year 1 tem 1279 info. faltando
+	- coluna de tipos só tem 69 info. preenchidas (56 paratipos e 13 holotipos)
+
