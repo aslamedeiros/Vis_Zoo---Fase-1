@@ -8,6 +8,7 @@ Counts_per_family:
 	
 Depth:
 	- unidade é em metros?
+	
 OBS: 
 	- Determined Year 1 tem 1279 info. faltando
 	- coluna de tipos só tem 69 info. preenchidas (56 paratipos e 13 holotipos)
