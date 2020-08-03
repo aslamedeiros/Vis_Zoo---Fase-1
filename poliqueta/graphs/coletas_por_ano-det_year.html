@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-c6cb3625606dbf13c213b268146f6d62"}, "mark": "bar", "encoding": {"x": {"type": "ordinal", "field": "year", "title": "Determined Year"}, "y": {"type": "quantitative", "field": "ln_counts", "title": "Contagem"}}, "title": "Collected animals per year", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-c6cb3625606dbf13c213b268146f6d62": [{"year": 1986, "counts": 1, "ln_counts": 1}, {"year": 1991, "counts": 4, "ln_counts": 4}, {"year": 1993, "counts": 2, "ln_counts": 2}, {"year": 1994, "counts": 27, "ln_counts": 27}, {"year": 1997, "counts": 2, "ln_counts": 2}, {"year": 1998, "counts": 64, "ln_counts": 64}, {"year": 1999, "counts": 8, "ln_counts": 8}, {"year": 2000, "counts": 60, "ln_counts": 60}, {"year": 2001, "counts": 232, "ln_counts": 232}, {"year": 2002, "counts": 351, "ln_counts": 351}, {"year": 2003, "counts": 211, "ln_counts": 211}, {"year": 2004, "counts": 23, "ln_counts": 23}, {"year": 2005, "counts": 99, "ln_counts": 99}, {"year": 2007, "counts": 64, "ln_counts": 64}, {"year": 2008, "counts": 191, "ln_counts": 191}, {"year": 2009, "counts": 30, "ln_counts": 30}, {"year": 2010, "counts": 154, "ln_counts": 154}, {"year": 2011, "counts": 1019, "ln_counts": 1019}, {"year": 2012, "counts": 62, "ln_counts": 62}, {"year": 2013, "counts": 182, "ln_counts": 182}, {"year": 2014, "counts": 159, "ln_counts": 159}, {"year": 2015, "counts": 7, "ln_counts": 7}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

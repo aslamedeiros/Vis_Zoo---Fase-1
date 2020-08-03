@@ -6,6 +6,8 @@ Counts_per_researcher:
 Counts_per_family: 
 	- gráfico com ordens, ordenei pela soma das contagens
 	
+Depth:
+	- unidade é em metros?
 OBS: 
 	- Determined Year 1 tem 1279 info. faltando
 	- coluna de tipos só tem 69 info. preenchidas (56 paratipos e 13 holotipos)
