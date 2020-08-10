@@ -1,13 +1,20 @@
+Há dois arquivos Excel: 
+	um com 4 mil obs. e outro com cerca de 2 mil obs. 
+	Devo juntá-los em uma só base? ou visualizar em separado?
+
 Counts_per_researcher: 
 	- 'Determiner Last Name 1' tem o nome completo dos determinadores (1455 nomes faltando)
 	- 'Collector First Name 1' e 'Collector Last Name 1' tem 1059 nomes faltando.
-	
 
 Counts_per_family: 
 	- gráfico com ordens, ordenei pela soma das contagens
 	
 Depth:
 	- unidade é em metros?
+	
+lat long:
+	- há limitações da ferramenta para esse gráfico. 
+	- é importante saber até que ponto as coordenadas são precisas para determinar a confiabilidade da ferramenta. 
 	
 OBS: 
 	- Determined Year 1 tem 1279 info. faltando
