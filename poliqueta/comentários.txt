@@ -21,3 +21,5 @@ OBS:
 	- Determined Year 1 tem 1279 info. faltando
 	- coluna de tipos só tem 69 info. preenchidas (56 paratipos e 13 holotipos)
 
+=============================
+OBS: Arquivo MNRJP27.07.2020 não tem coluna com data de determinação?
