@@ -1,6 +1,7 @@
 Há dois arquivos Excel: 
-	um com 4 mil obs. e outro com cerca de 2 mil obs. 
-	Devo juntá-los em uma só base? ou visualizar em separado?
+	um com 4 mil obs.(IBUFRJ27.07.2020 - visualização.xlsx) 
+		e outro com cerca de 2 mil obs. 
+	juntá-los em uma só base
 
 Counts_per_researcher: 
 	- 'Determiner Last Name 1' tem o nome completo dos determinadores (1455 nomes faltando)
