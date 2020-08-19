@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-2a48cd9929c52fcadb9497dfc8d061f6"}, "mark": "circle", "encoding": {"color": {"type": "nominal", "field": "order", "scale": {"domain": ["Eunicida", "Phyllodocida", "Sabellida", "Scolecida", "Spionida", "Terebellida", "Amphinomida", NaN, "Sipuncula", "Crassiclitellata", "Canalipalpata", "Aspidosiphonida"], "range": ["#8ABFB0", "#41A681", "#7ACAAB", "#D9C2AD", "#0D0D0D", "#D96236", "#D94B18", "#FFB27C", "#732C02", "#86471B", "#592202", "#D96236"]}, "title": "order"}, "size": {"type": "quantitative", "field": "counts"}, "tooltip": [{"type": "nominal", "field": "type", "title": "type"}, {"type": "quantitative", "field": "start_year", "title": "start year"}, {"type": "quantitative", "field": "counts", "title": "counts"}], "x": {"type": "ordinal", "field": "start_year", "title": "Start Year"}, "y": {"type": "nominal", "field": "type", "sort": {"field": "counts", "op": "sum", "order": "descending"}, "title": "Type"}}, "height": 150, "title": "Types per year", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-2a48cd9929c52fcadb9497dfc8d061f6": [{"type": "Holotype", "start_year": 1900.0, "order": "Amphinomida", "counts": 1}, {"type": "Holotype", "start_year": 1997.0, "order": "Eunicida", "counts": 1}, {"type": "Holotype", "start_year": 1999.0, "order": "Phyllodocida", "counts": 2}, {"type": "Holotype", "start_year": 2000.0, "order": "Sabellida", "counts": 1}, {"type": "Holotype", "start_year": 2000.0, "order": "Terebellida", "counts": 2}, {"type": "Holotype", "start_year": 2003.0, "order": "Amphinomida", "counts": 2}, {"type": "Holotype", "start_year": 2005.0, "order": "Phyllodocida", "counts": 1}, {"type": "Holotype", "start_year": 2008.0, "order": "Phyllodocida", "counts": 2}, {"type": "Holotype", "start_year": 2009.0, "order": "Phyllodocida", "counts": 2}, {"type": "Holotype", "start_year": 2009.0, "order": "Scolecida", "counts": 3}, {"type": "Holotype", "start_year": 2010.0, "order": "Eunicida", "counts": 1}, {"type": "Holotype", "start_year": 2011.0, "order": "Amphinomida", "counts": 1}, {"type": "Holotype", "start_year": 2011.0, "order": "Spionida", "counts": 1}, {"type": "Holotype", "start_year": 2011.0, "order": "Terebellida", "counts": 1}, {"type": "Holotype", "start_year": 2012.0, "order": "Phyllodocida", "counts": 1}, {"type": "Holotype", "start_year": 2012.0, "order": "Scolecida", "counts": 2}, {"type": "Holotype", "start_year": 2012.0, "order": "Terebellida", "counts": 1}, {"type": "Holotype", "start_year": 2013.0, "order": "Terebellida", "counts": 1}, {"type": "Holotype", "start_year": 2014.0, "order": "Phyllodocida", "counts": 1}, {"type": "Holotype", "start_year": 2015.0, "order": "Phyllodocida", "counts": 2}, {"type": "Holotype", "start_year": 2016.0, "order": "Phyllodocida", "counts": 4}, {"type": "Neotype", "start_year": 2018.0, "order": "Scolecida", "counts": 1}, {"type": "Paratype", "start_year": 1996.0, "order": "Eunicida", "counts": 3}, {"type": "Paratype", "start_year": 1997.0, "order": "Eunicida", "counts": 14}, {"type": "Paratype", "start_year": 2000.0, "order": "Phyllodocida", "counts": 1}, {"type": "Paratype", "start_year": 2000.0, "order": "Sabellida", "counts": 3}, {"type": "Paratype", "start_year": 2000.0, "order": "Terebellida", "counts": 5}, {"type": "Paratype", "start_year": 2002.0, "order": "Phyllodocida", "counts": 1}, {"type": "Paratype", "start_year": 2003.0, "order": "Amphinomida", "counts": 3}, {"type": "Paratype", "start_year": 2003.0, "order": "Phyllodocida", "counts": 5}, {"type": "Paratype", "start_year": 2005.0, "order": "Phyllodocida", "counts": 2}, {"type": "Paratype", "start_year": 2006.0, "order": "Phyllodocida", "counts": 1}, {"type": "Paratype", "start_year": 2008.0, "order": "Phyllodocida", "counts": 10}, {"type": "Paratype", "start_year": 2009.0, "order": "Phyllodocida", "counts": 5}, {"type": "Paratype", "start_year": 2009.0, "order": "Scolecida", "counts": 7}, {"type": "Paratype", "start_year": 2010.0, "order": "Eunicida", "counts": 2}, {"type": "Paratype", "start_year": 2010.0, "order": "Scolecida", "counts": 1}, {"type": "Paratype", "start_year": 2011.0, "order": "Amphinomida", "counts": 1}, {"type": "Paratype", "start_year": 2011.0, "order": "Eunicida", "counts": 1}, {"type": "Paratype", "start_year": 2011.0, "order": "Phyllodocida", "counts": 1}, {"type": "Paratype", "start_year": 2011.0, "order": "Scolecida", "counts": 4}, {"type": "Paratype", "start_year": 2011.0, "order": "Spionida", "counts": 7}, {"type": "Paratype", "start_year": 2011.0, "order": "Terebellida", "counts": 1}, {"type": "Paratype", "start_year": 2012.0, "order": "Amphinomida", "counts": 2}, {"type": "Paratype", "start_year": 2012.0, "order": "Eunicida", "counts": 3}, {"type": "Paratype", "start_year": 2012.0, "order": "Scolecida", "counts": 6}, {"type": "Paratype", "start_year": 2012.0, "order": "Terebellida", "counts": 1}, {"type": "Paratype", "start_year": 2013.0, "order": "Amphinomida", "counts": 5}, {"type": "Paratype", "start_year": 2013.0, "order": "Scolecida", "counts": 1}, {"type": "Paratype", "start_year": 2013.0, "order": "Terebellida", "counts": 1}, {"type": "Paratype", "start_year": 2014.0, "order": "Phyllodocida", "counts": 1}, {"type": "Paratype", "start_year": 2014.0, "order": "Scolecida", "counts": 2}, {"type": "Paratype", "start_year": 2015.0, "order": "Phyllodocida", "counts": 5}, {"type": "Paratype", "start_year": 2015.0, "order": "Scolecida", "counts": 1}, {"type": "Paratype", "start_year": 2016.0, "order": "Phyllodocida", "counts": 5}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

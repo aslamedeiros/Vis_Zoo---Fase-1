@@ -1,4 +1,4 @@
-- ajustar tooltip (colocar numero de catalogo)
+- ajustar tooltip (colocar numero de catalogo)  - (OK!)
 - ano de tombamento para analisar a história da coleção
 - adicionar coletor e localidade (coluna locality) na tooltip dos gráficos de profundidade  (OK!)
 - gênero em letra maiúscula    (OK!)
