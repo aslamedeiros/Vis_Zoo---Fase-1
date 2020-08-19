@@ -1,12 +1,12 @@
 - ajustar tooltip (colocar numero de catalogo)  - (OK!)
-- ano de tombamento para analisar a história da coleção
+- ano de tombamento para analisar a história da coleção  -  onde está?
 - adicionar coletor e localidade (coluna locality) na tooltip dos gráficos de profundidade  (OK!)
 - gênero em letra maiúscula    (OK!)
 
 - viz de coletor e determinador: usar o primeiro e segundo (pandas melt)
-- viz de tipos: há muitos "não-tipos" && juntar as duas planilhas
+- viz de tipos: há muitos "não-tipos" && juntar as duas planilhas  - (OK!)
 
 =============================================================================================
 Como comunicar? gráfico do sumô dos coletores/determinadores
 árvore taxonomica (apresentar a coleção | navegação)
-jogar o dado nas visualizações que já existem (do artigo)
+jogar o dado nas visualizações que já existem (do artigo) - associado a etapa de revisão de literatura

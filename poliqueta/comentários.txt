@@ -27,6 +27,10 @@ OBS: Arquivo MNRJP27.07.2020 não tem coluna com data de determinação?
 Ordens: 
 	surgiram duas novas na base completa: Canalipalpata e Aspidosiphonida
 
+Coletores / Determinadores: 
+	determinador só tem o nome de um (para a base do MNRJ, tem poucos preenchimentos)
+	então, fiz apenas para os coletores (primeiro e segundo)
 
+ano de tombamento: onde está? qual coluna?
 
 
