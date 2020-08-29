@@ -207,4 +207,4 @@ def brazilian_region(state):
     if state not in regions.keys():
         return np.NAN
     else:
-        return regions[est]
+        return regions[state]
