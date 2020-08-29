@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-af2c6985c961af7ed940baaf272180f2"}, "mark": "bar", "encoding": {"x": {"type": "ordinal", "field": "year", "title": "Cataloged Year"}, "y": {"type": "quantitative", "field": "ln_counts", "title": "Contagem"}}, "title": "Cataloged animals per year", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-af2c6985c961af7ed940baaf272180f2": [{"year": 0, "counts": 1, "ln_counts": 1}, {"year": 1905, "counts": 10, "ln_counts": 10}, {"year": 1960, "counts": 1, "ln_counts": 1}, {"year": 1961, "counts": 1, "ln_counts": 1}, {"year": 1966, "counts": 3, "ln_counts": 3}, {"year": 1967, "counts": 4, "ln_counts": 4}, {"year": 1971, "counts": 2, "ln_counts": 2}, {"year": 1977, "counts": 3, "ln_counts": 3}, {"year": 1979, "counts": 2, "ln_counts": 2}, {"year": 1980, "counts": 3, "ln_counts": 3}, {"year": 1982, "counts": 1, "ln_counts": 1}, {"year": 1983, "counts": 1, "ln_counts": 1}, {"year": 1984, "counts": 9, "ln_counts": 9}, {"year": 1985, "counts": 1, "ln_counts": 1}, {"year": 1986, "counts": 5, "ln_counts": 5}, {"year": 1987, "counts": 2, "ln_counts": 2}, {"year": 1988, "counts": 9, "ln_counts": 9}, {"year": 1991, "counts": 4, "ln_counts": 4}, {"year": 1992, "counts": 18, "ln_counts": 18}, {"year": 1993, "counts": 2, "ln_counts": 2}, {"year": 1994, "counts": 1, "ln_counts": 1}, {"year": 1996, "counts": 23, "ln_counts": 23}, {"year": 1997, "counts": 69, "ln_counts": 69}, {"year": 1998, "counts": 13, "ln_counts": 13}, {"year": 1999, "counts": 13, "ln_counts": 13}, {"year": 2000, "counts": 368, "ln_counts": 368}, {"year": 2001, "counts": 37, "ln_counts": 37}, {"year": 2002, "counts": 63, "ln_counts": 63}, {"year": 2003, "counts": 81, "ln_counts": 81}, {"year": 2004, "counts": 4, "ln_counts": 4}, {"year": 2005, "counts": 116, "ln_counts": 116}, {"year": 2007, "counts": 20, "ln_counts": 20}, {"year": 2008, "counts": 133, "ln_counts": 133}, {"year": 2009, "counts": 48, "ln_counts": 48}, {"year": 2012, "counts": 8, "ln_counts": 8}, {"year": 2013, "counts": 1691, "ln_counts": 1691}, {"year": 2014, "counts": 490, "ln_counts": 490}, {"year": 2015, "counts": 758, "ln_counts": 758}, {"year": 2016, "counts": 424, "ln_counts": 424}, {"year": 2017, "counts": 330, "ln_counts": 330}, {"year": 2018, "counts": 390, "ln_counts": 390}, {"year": 2019, "counts": 743, "ln_counts": 743}, {"year": 2020, "counts": 29, "ln_counts": 29}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

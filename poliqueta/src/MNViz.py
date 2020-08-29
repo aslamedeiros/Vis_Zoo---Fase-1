@@ -25,8 +25,25 @@ def treat_names(name, pos='first'):
         if len(name.split(' ')) > 1:             # treats composite last name (+ 1 surname)
             return str(name).strip().split(' ')[-1].capitalize()
         else:
-            return str(name).strip().capitalize()   
-    else:
+            return str(name).strip().capitalize() 
+        
+    elif type(name) == str and pos == 'full':    # treats a full composite name, if its all in one column
+        if len(name.split(' ')) > 1:
+            splitted_name = name.split(' ')
+            name2return = ''
+            for n in splitted_name:
+                if len(n.strip()) > 2:
+                    name2return += n.strip().capitalize()  # big name, capitalized
+                    name2return += ' '                     ## adds space after the name to separate it from the others
+                else:
+                    name2return += n.strip()
+                    name2return += ' '
+           
+            return name2return.strip()  ## removes last space before returning it
+        else:
+            return str(name).strip().capitalize()
+        
+    else:  # if the name is any other type than string, just returns it 
         return name
     
 

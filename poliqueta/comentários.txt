@@ -1,5 +1,5 @@
 Há dois arquivos Excel: 
-	um com 4 mil obs.(IBUFRJ27.07.2020 - visualização.xlsx) 
+	um com 4 mil obs. (IBUFRJ27.07.2020 - visualização.xlsx) 
 		e outro com cerca de 2 mil obs. 
 	juntá-los em uma só base
 

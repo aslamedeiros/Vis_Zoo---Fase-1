@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-1d5a4f8bdcd0ac6491939bb5c8834f80"}, "facet": {"row": {"type": "nominal", "field": "collection_prefix"}}, "spec": {"mark": "bar", "encoding": {"x": {"type": "ordinal", "field": "cataloged_year", "title": "Cataloged Year"}, "y": {"type": "quantitative", "field": "counts", "title": "Contagem"}}, "title": "Cataloged animals per year", "width": 800}, "resolve": {"axis": {"x": "independent"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1d5a4f8bdcd0ac6491939bb5c8834f80": [{"cataloged_year": 0.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1905.0, "collection_prefix": "IBUFRJ", "counts": 10}, {"cataloged_year": 1960.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1961.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1966.0, "collection_prefix": "IBUFRJ", "counts": 3}, {"cataloged_year": 1967.0, "collection_prefix": "IBUFRJ", "counts": 4}, {"cataloged_year": 1971.0, "collection_prefix": "IBUFRJ", "counts": 2}, {"cataloged_year": 1977.0, "collection_prefix": "IBUFRJ", "counts": 3}, {"cataloged_year": 1979.0, "collection_prefix": "IBUFRJ", "counts": 2}, {"cataloged_year": 1980.0, "collection_prefix": "IBUFRJ", "counts": 3}, {"cataloged_year": 1982.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1983.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1984.0, "collection_prefix": "IBUFRJ", "counts": 9}, {"cataloged_year": 1985.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1986.0, "collection_prefix": "IBUFRJ", "counts": 5}, {"cataloged_year": 1987.0, "collection_prefix": "IBUFRJ", "counts": 2}, {"cataloged_year": 1988.0, "collection_prefix": "IBUFRJ", "counts": 9}, {"cataloged_year": 1991.0, "collection_prefix": "IBUFRJ", "counts": 4}, {"cataloged_year": 1992.0, "collection_prefix": "IBUFRJ", "counts": 18}, {"cataloged_year": 1993.0, "collection_prefix": "IBUFRJ", "counts": 2}, {"cataloged_year": 1994.0, "collection_prefix": "IBUFRJ", "counts": 1}, {"cataloged_year": 1996.0, "collection_prefix": "IBUFRJ", "counts": 23}, {"cataloged_year": 1997.0, "collection_prefix": "IBUFRJ", "counts": 69}, {"cataloged_year": 1998.0, "collection_prefix": "IBUFRJ", "counts": 13}, {"cataloged_year": 1999.0, "collection_prefix": "IBUFRJ", "counts": 13}, {"cataloged_year": 2000.0, "collection_prefix": "IBUFRJ", "counts": 368}, {"cataloged_year": 2001.0, "collection_prefix": "IBUFRJ", "counts": 37}, {"cataloged_year": 2002.0, "collection_prefix": "IBUFRJ", "counts": 63}, {"cataloged_year": 2003.0, "collection_prefix": "IBUFRJ", "counts": 81}, {"cataloged_year": 2004.0, "collection_prefix": "IBUFRJ", "counts": 4}, {"cataloged_year": 2005.0, "collection_prefix": "IBUFRJ", "counts": 116}, {"cataloged_year": 2007.0, "collection_prefix": "IBUFRJ", "counts": 20}, {"cataloged_year": 2008.0, "collection_prefix": "IBUFRJ", "counts": 133}, {"cataloged_year": 2009.0, "collection_prefix": "IBUFRJ", "counts": 48}, {"cataloged_year": 2012.0, "collection_prefix": "IBUFRJ", "counts": 8}, {"cataloged_year": 2013.0, "collection_prefix": "IBUFRJ", "counts": 1691}, {"cataloged_year": 2014.0, "collection_prefix": "IBUFRJ", "counts": 490}, {"cataloged_year": 2015.0, "collection_prefix": "IBUFRJ", "counts": 331}, {"cataloged_year": 2015.0, "collection_prefix": "MNRJP", "counts": 427}, {"cataloged_year": 2016.0, "collection_prefix": "MNRJP", "counts": 424}, {"cataloged_year": 2017.0, "collection_prefix": "MNRJP", "counts": 330}, {"cataloged_year": 2018.0, "collection_prefix": "MNRJP", "counts": 390}, {"cataloged_year": 2019.0, "collection_prefix": "MNRJP", "counts": 743}, {"cataloged_year": 2020.0, "collection_prefix": "MNRJP", "counts": 29}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
