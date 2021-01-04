@@ -1,0 +1,3 @@
+color crafter: http://cu-visualab.org/ColorCrafter/
+
+colorgorical: http://vrl.cs.brown.edu/color
