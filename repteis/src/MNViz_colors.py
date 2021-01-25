@@ -8,24 +8,24 @@ cores_ordem = {   # p.s.: Caudata is an error and should be removed
 
 
 ## CONTINENTE
-cores_continente = {
-    "#N/D":"#5e4028",
-    "América do Sul":"#10b651",
-    "América Central":"#bce091",
-    "América do Norte":"#21638f",
-    "Ásia":"#d963cf",
-    "África":"#52e9e6",
-    "Europa":"#8d102b"
-}
+# cores_continente = {
+#     "#N/D":"#5e4028",
+#     "América do Sul":"#10b651",
+#     "América Central":"#bce091",
+#     "América do Norte":"#21638f",
+#     "Ásia":"#d963cf",
+#     "África":"#52e9e6",
+#     "Europa":"#8d102b"
+# }
 
-cores_continente2 = {
-    "#N/D":"#d963cf",
-    "América do Sul":"#3a6566",
-    "América Central":"#b7d165",
-    "América do Norte":"#80c6b8",
-    "Ásia":"#803e4c",
-    "África":"#efaa79",
-    "Europa":"#bf3e15"
+cores_continente= {
+    "#N/D":"#000000",
+    "América do Sul":"#40a43b",
+    "América Central":"#bbe272",
+    "América do Norte":"#255026",
+    "Ásia":"#db11ac",
+    "África":"#a96370",
+    "Europa":"#208eb7"
 }
 
 
@@ -89,64 +89,64 @@ cores_continente2 = {
 ### new approach: inspired on Hans Rosling (countries are colored the same as its continents)
 # colors chosen according to the old olympics convention (see https://www.npr.org/sections/thetorch/2012/08/10/158569089/seeing-the-world-through-the-olympic-rings-and-infographicsinfographics#:~:text=The%20Olympic%20Charter%20once%20ascribed,Oceania%2C%20and%20red%20for%20America.)
 
-# Each ring in the 16 prints symbolizes one of the five continents competing at the Olympics: Africa (yellow), the Americas (red), Asia (green), Europe (black), and Oceania (blue)
+# Each ring symbolizes one of the five continents competing at the Olympics: Africa (yellow), the Americas (red), Asia (green), Europe (black), and Oceania (blue)
 cores_pais = {
-    '#N/D':'#5e4028',
+    '#N/D':'#000000',
     'nan':'#000000',  # preto
     # América do Sul
-    'Brasil':'#00237a',
-    'Uruguai':'#002e8b',
-    'Colômbia':'#004da4',
-    'Peru':'#0071ba',
-    'Paraguai':'#0096c9',
-    'Argentina':'#00b8cc',
-    'Guiana Francesa':'#57d5c9',
-    'Venezuela':'#94efc6',
-    'Guiana':'#9ebdcb',
-    'Chile':'#bbffd4',
-    'Equador':'#a6d2eb',
+    'Brasil':'#40a43b',
+    'Uruguai':'#40a43b',
+    'Colômbia':'#40a43b',
+    'Peru':'#40a43b',
+    'Paraguai':'#40a43b',
+    'Argentina':'#40a43b',
+    'Guiana Francesa':'#40a43b',
+    'Venezuela':'#40a43b',
+    'Guiana':'#40a43b',
+    'Chile':'#40a43b',
+    'Equador':'#40a43b',
     # América Central
-    'Guatemala':'#e3ff63',
-    'Panamá':'#caf94f',
-    'Porto Rico':'#b2e439',
-    'Costa Rica':'#9acf1c',
-    'México':'#256b00',
-    'Nicarágua':'#81ba00',
-    'Honduras':'#69a600',
-    'Cuba':'#519200',
-    'República Dominicana':'#3a7e00',
+    'Guatemala':'#bbe272',
+    'Panamá':'#bbe272',
+    'Porto Rico':'#bbe272',
+    'Costa Rica':'#bbe272',
+    'México':'#bbe272',
+    'Nicarágua':'#bbe272',
+    'Honduras':'#bbe272',
+    'Cuba':'#bbe272',
+    'República Dominicana':'#bbe272',
     # América do Norte
-    'Estados Unidos':'#80c6b8',
+    'Estados Unidos':'#255026',
     # Ásia
-    'Israel':'#803e4c',
-    'Indonésia':'#9e5466',
-    'Índia':'#bc7386',
-    'Filipinas':'#d89bb2',
+    'Israel':'#db11ac',
+    'Indonésia':'#db11ac',
+    'Índia':'#db11ac',
+    'Filipinas':'#db11ac',
     # África
-    'África do Sul':'#ba8a47',
-    'Egito':'#efaa79',
+    'África do Sul':'#a96370',
+    'Egito':'#a96370',
     # Europa
-    'Bósnia e Herzegovina':'#ffb996',
-    'Romênia':'#ff916f',
-    'Alemanha':'#eb6949',
-    'Kingdom':'#ba4327'
+    'Bósnia e Herzegovina':'#208eb7',
+    'Romênia':'#208eb7',
+    'Alemanha':'#208eb7',
+    'Kingdom':'#208eb7'
 }
 
 
 
 ### South America countries (only)
 cores_AS = {
-    'Brasil':'#00237a',
-    'Uruguai':'#002e8b',
-    'Colômbia':'#004da4',
-    'Peru':'#0071ba',
-    'Paraguai':'#0096c9',
-    'Argentina':'#00b8cc',
-    'Guiana Francesa':'#57d5c9',
-    'Venezuela':'#94efc6',
-    'Guiana':'#9ebdcb',
-    'Chile':'#bbffd4',
-    'Equador':'#a6d2eb',
+    'Brasil':'#40a43b',
+    'Uruguai':'#40a43b',
+    'Colômbia':'#40a43b',
+    'Peru':'#40a43b',
+    'Paraguai':'#40a43b',
+    'Argentina':'#40a43b',
+    'Guiana Francesa':'#40a43b',
+    'Venezuela':'#40a43b',
+    'Guiana':'#40a43b',
+    'Chile':'#40a43b',
+    'Equador':'#40a43b',
 }
 
 
