@@ -6,6 +6,68 @@ cores_ordem = {   # p.s.: Caudata is an error and should be removed
     'Crocodylia': '#284021'   
 }
 
+cores_familia = {
+    # known errors treatment
+#     '#n/d':'#000000',
+#     'nan':'#000000',
+    # grupo 1: Crocodylia
+    'Alligatoridae':'#142611',
+    # grupo 2: Testudines
+    'Cheloniidae':'#bafd62',
+    'Chelydridae':'#9feb3f',
+    'Dermochelyidae':'#85d907',
+    'Emydidae':'#6cc700',
+    'Geoemydidae':'#52b700',
+    'Kinosternidae':'#35a600',
+    'Testudinidae':'#0b9700',
+    'Trionychidae':'#008800',
+    'Chelidae':'#006400',
+    'Podocnemididae':'#004100',
+    # grupo 4: Amphisbaenia - Amphisbaenia
+    'Amphisbaenidae':'#F2CB07',
+    # grupo 5: Sauria - Iguania
+    'Dactyloidae':'#f8dcf9',
+    'Agamidae':'#ebc5ed',
+    'Chamaeleonidae':'#ddafe2',
+    'Iguanidae':'#ce9ad6',
+    'Hoplocercidae':'#bf86cc',
+    'Leiosauridae':'#af73c2',
+    'Polychrotidae':'#a160b8', 
+    'Liolaemidae':'#924fae',
+    'Phrynosomatidae':'#833fa4',
+    'Tropiduridae':'#803da1',
+    # grupo 6: Sauria - Scleroglossa
+    'Scincidae':'#c9fff9',
+    'Anguidae':'#b3eff2',
+    'Lacertidae':'#9cdcea',
+    'Gymnophthalmidae':'#83c9e2',
+    'Helodermatidae':'#68b7da',
+    'Xantusiidae':'#4aa6d2',
+    'Gekkonidae':'#2096ca',
+    'Phyllodactylidae':'#0087c1',
+    'Sphaerodactylidae':'#0079b7',
+    'Varanidae':'#226ca2',
+    'Teiidae':'#005e98',
+    # grupo 7: Serpentes - Scolecophidia
+    'Anomalepididae':'#bfbfbf',
+    'Leptotyphlopidae':'#8a8a8a',
+    'Typhlopidae':'#595959', 
+    # grupo 8: Alethinophidia
+    'Dipsadidae':'#ffce9f',
+    'Natricidae':'#ffb683',
+    'Homalopsidae':'#ff9f69',
+    'Colubridae':'#ff8851',
+    'Lamprophiidae':'#f5723b',
+    'Pythonidae':'#e75b25',
+    'Boidae':'#d9430d', 
+    'Aniliidae':'#cb2800',
+    'Loxocemidae':'#bc0000',
+    'Elapidae':'#c62f00',
+    'Tropidophiidae':'#b41b00',
+    'Xenopeltidae':'#a40300',
+    'Viperidae':'#930000'
+}
+
 
 ## CONTINENTE
 # cores_continente = {
