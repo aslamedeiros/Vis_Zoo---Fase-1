@@ -1,72 +1,143 @@
 # Paletas de cores
 ## ORDEM
-cores_ordem = {   # p.s.: Caudata is an error and should be removed
-    'Squamata': '#BF4417',
-    'Testudines': '#D9CB0B', 
-    'Crocodylia': '#284021'   
+#cores_ordem = {   # p.s.: Caudata is an error and should be removed
+#    'Squamata': '#BF4417',
+#    'Testudines': '#D9CB0B', 
+#    'Crocodylia': '#284021'   
+#}
+
+cores_familia_naive = {
+    # known errors are marked in black
+    'Nan':'#000000',
+    # infraorder: Ascacidae
+    'Nephropidae':'#e26d67',
+        # p.s.: a cris classificou, mas não são decapoda.
+        #'Cambaridae'
+        #'Enoplometopidae'
+        #'Parastacidae'
+    # infraorder: Anomura (obs: Lithodidae e Coenobitidae não foram classificadas pela Cris, mas são decapoda)
+    'Aeglidae':'#007961', 
+    'Diogenidae':'#007961', 
+    'Paguridae':'#007961', 
+    'Porcellanidae':'#007961',
+    'Munididae':'#007961', 
+    'Galatheidae':'#007961', 
+    'Hippidae':'#007961', 
+    'Albuneidae':'#007961',
+    'Blepharipodidae':'#007961', 
+    'Lithodidae':'#007961', 
+    'Chirostylidae':'#007961', 
+    'Munidopsidae':'#007961',
+    'Parapaguridae':'#007961', 
+    'Coenobitidae':'#007961',
+    # infraorder: Achelata
+    'Palinuridae':'#7a2c39',
+    'Scyllaridae':'#7a2c39',
+    # infraorder: Axiidea
+    'Axiidae':'#b67262',
+    'Callianassidae':'#b67262',
+    'Ctenochelidae':'#b67262',
+    'Micheleidae':'#b67262',
+    # infraorder: Brachyura
+    'Gecarcinidae':'#ee4454', 
+    'Pinnotheridae':'#ee4454', 
+    'Aethridae':'#ee4454', 
+    'Calappidae':'#ee4454',
+    'Portunidae':'#ee4454', 
+    'Ovalipidae':'#ee4454', 
+    'Leucosiidae':'#ee4454', 
+    # 'Grapsidae':'#ee4454',
+    'Varunidae':'#ee4454', 
+    'Sesarmidae':'#ee4454', 
+    'Plagusiidae':'#ee4454', 
+    'Ucididae':'#ee4454', 
+    'Percnidae':'#ee4454',
+    'Dromiidae':'#ee4454', 
+    'Raninidae':'#ee4454', 
+    'Trichodactylidae':'#ee4454', 
+    'Menippidae':'#ee4454',
+    'Mithracidae':'#ee4454', 
+    'Panopeidae':'#ee4454', 
+    # 'Xanthidae':'#ee4454', 
+    'Ocypodidae':'#ee4454',
+    'Pseudothelphusidae':'#ee4454', 
+    'Geryonidae':'#ee4454', 
+    'Euryplacidae':'#ee4454', 
+    'Ethusidae':'#ee4454',
+    'Dorippidae':'#ee4454', 
+    'Cyclodorippidae':'#ee4454', 
+    'Homolidae':'#ee4454', 
+    'Atelecyclidae':'#ee4454',
+    'Cancridae':'#ee4454', 
+    'Epialtidae':'#ee4454', 
+    'Majidae':'#ee4454', 
+    'Inachidae':'#ee4454', 
+    'Parthenopidae':'#ee4454',
+    'Pilumnidae':'#ee4454', 
+    'Pseudorhombilidae':'#ee4454', 
+    'Eriphiidae':'#ee4454', 
+    'Platyxanthidae':'#ee4454',
+    'Inachoididae':'#ee4454', 
+    'Carpiliidae':'#ee4454', 
+    'Hymenosomatidae':'#ee4454', 
+    'Goneplacidae':'#ee4454',
+    'Palicidae':'#ee4454', 
+    'Dairidae':'#ee4454', 
+    'Domeciidae':'#ee4454', 
+    'Pilumnoididae':'#ee4454',
+    'Bythograeidae':'#ee4454', 
+    'Trichopeltariidae':'#ee4454', 
+    'Cryptochiridae':'#ee4454',
+    'Homolodromiidae':'#ee4454', 
+    'Polybiidae':'#ee4454', 
+    'Chasmocarcinidae':'#ee4454', 
+    'Mictyridae':'#ee4454',
+    'Symethidae':'#ee4454',
+    # infraorder: Caridea
+    'Palaemonidae':'#3330b7',
+    'Hippolytidae':'#3330b7', 
+    'Atyidae':'#3330b7', 
+    'Alpheidae':'#3330b7',
+    'Rhynchocinetidae':'#3330b7', 
+    'Processidae':'#3330b7', 
+    'Pandalidae':'#3330b7', 
+    'Pasiphaeidae':'#3330b7',
+    'Oplophoridae':'#3330b7', 
+    'Ogyrididae':'#3330b7', 
+    'Crangonidae':'#3330b7', 
+    'Glyphocrangonidae':'#3330b7',
+    'Acanthephyridae':'#3330b7', 
+    'Nematocarcinidae':'#3330b7', 
+    'Anchistioididae':'#3330b7',
+    'Disciadidae':'#3330b7', 
+    'Pseudochelidae':'#3330b7', 
+    'Bathypalaemonellidae':'#3330b7', 
+    'Lysmatidae':'#3330b7',
+    # infraorder: Gebiidea
+    'Upogebiidae':'#58b5e1',
+    # infraorder: Stenopodídea
+    'Stenopodidae':'#b8e450',
+        # OBS: a partir daqui, não foram classificados pela Cris
+    # infraorder: Astacidea
+    'Nephropidae':'#a0a3fd', 
+    'Parastacidae':'#a0a3fd', 
+    'Enoplometopidae':'#a0a3fd', 
+    'Cambaridae':'#a0a3fd',
+    # infraorder: Polychelida
+    'Polychelidae':'#deae9e',
+    # infraorder: Grapsoidea
+    'Grapsidae': '#d867be',
+    # infraorder: Xanthoidea
+    'Xanthidae':'#fece5f'
 }
 
-cores_familia = {
-    # known errors treatment
-#     '#n/d':'#000000',
-#     'nan':'#000000',
-    # grupo 1: Crocodylia
-    'Alligatoridae':'#142611',
-    # grupo 2: Testudines
-    'Cheloniidae':'#bafd62',
-    'Chelydridae':'#9feb3f',
-    'Dermochelyidae':'#85d907',
-    'Emydidae':'#6cc700',
-    'Geoemydidae':'#52b700',
-    'Kinosternidae':'#35a600',
-    'Testudinidae':'#0b9700',
-    'Trionychidae':'#008800',
-    'Chelidae':'#006400',
-    'Podocnemididae':'#004100',
-    # grupo 4: Amphisbaenia - Amphisbaenia
-    'Amphisbaenidae':'#F2CB07',
-    # grupo 5: Sauria - Iguania
-    'Dactyloidae':'#f8dcf9',
-    'Agamidae':'#ebc5ed',
-    'Chamaeleonidae':'#ddafe2',
-    'Iguanidae':'#ce9ad6',
-    'Hoplocercidae':'#bf86cc',
-    'Leiosauridae':'#af73c2',
-    'Polychrotidae':'#a160b8', 
-    'Liolaemidae':'#924fae',
-    'Phrynosomatidae':'#833fa4',
-    'Tropiduridae':'#803da1',
-    # grupo 6: Sauria - Scleroglossa
-    'Scincidae':'#c9fff9',
-    'Anguidae':'#b3eff2',
-    'Lacertidae':'#9cdcea',
-    'Gymnophthalmidae':'#83c9e2',
-    'Helodermatidae':'#68b7da',
-    'Xantusiidae':'#4aa6d2',
-    'Gekkonidae':'#2096ca',
-    'Phyllodactylidae':'#0087c1',
-    'Sphaerodactylidae':'#0079b7',
-    'Varanidae':'#226ca2',
-    'Teiidae':'#005e98',
-    # grupo 7: Serpentes - Scolecophidia
-    'Anomalepididae':'#bfbfbf',
-    'Leptotyphlopidae':'#8a8a8a',
-    'Typhlopidae':'#595959', 
-    # grupo 8: Alethinophidia
-    'Dipsadidae':'#ffce9f',
-    'Natricidae':'#ffb683',
-    'Homalopsidae':'#ff9f69',
-    'Colubridae':'#ff8851',
-    'Lamprophiidae':'#f5723b',
-    'Pythonidae':'#e75b25',
-    'Boidae':'#d9430d', 
-    'Aniliidae':'#cb2800',
-    'Loxocemidae':'#bc0000',
-    'Elapidae':'#c62f00',
-    'Tropidophiidae':'#b41b00',
-    'Xenopeltidae':'#a40300',
-    'Viperidae':'#930000'
-}
+# cores_familia = {
+#     # known errors treatment
+# #     '#n/d':'#000000',
+#     'Nan':'#000000',
+#     # grupo 1
+    
+# }
 
 
 ## CONTINENTE
@@ -215,11 +286,12 @@ cores_AS = {
 
 ### BRAZILIAN REGION
 cores_regioes = {
+    'nan':'#000000',  # missing value (black)
     'N':'#22695e',   # forest
     'NE':'#ea1349',  # hot
-    'CO':'#69ef7b',   # light green vegetation (Cerrado)
+    'CO':'#69ef7b',  # light green vegetation (Cerrado)
     'SE':'#992a1c',  # emphatic color
-    'S':'#7ee7d3'   # cold
+    'S':'#7ee7d3'    # cold
 }
 
 cores_regioes2 = {
