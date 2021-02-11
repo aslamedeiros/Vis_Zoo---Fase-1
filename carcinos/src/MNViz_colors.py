@@ -6,6 +6,22 @@
 #    'Crocodylia': '#284021'   
 #}
 
+cores_infraordem = {
+    'Nan':'#000000'
+    'Ascacidae':'#e26d67',
+    'Anomura':'#007961',
+    'Achelata':'#7a2c39',
+    'Axiidea':'#b67262',
+    'Brachyura':'#ee4454',
+    'Caridea':'#3330b7',
+    'Gebiidea':'#58b5e1',
+    'Stenopodidea':'#b8e450',
+    'Astacidae':'#a0a3fd',
+    'Polychelida':'#deae9e',
+    'Grapsoidea':'#d867be',
+    'Xanthoidea':'#fece5f'
+}
+
 cores_familia_naive = {
     # known errors are marked in black
     'Nan':'#000000',
