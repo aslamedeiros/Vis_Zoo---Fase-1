@@ -16,7 +16,7 @@ cores_infraordem = {
     'Caridea':'#3330b7',
     'Gebiidea':'#58b5e1',
     'Stenopodidea':'#b8e450',
-    'Astacidae':'#a0a3fd',
+    'Astacidea':'#a0a3fd',
     'Polychelida':'#deae9e',
     'Grapsoidea':'#d867be',
     'Xanthoidea':'#fece5f'
