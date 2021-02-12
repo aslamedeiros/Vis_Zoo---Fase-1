@@ -7,7 +7,7 @@
 #}
 
 cores_infraordem = {
-    'Nan':'#000000'
+    'Nan':'#000000',
     'Ascacidae':'#e26d67',
     'Anomura':'#007961',
     'Achelata':'#7a2c39',
