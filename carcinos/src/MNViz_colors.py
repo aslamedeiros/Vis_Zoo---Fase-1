@@ -8,25 +8,25 @@
 
 cores_infraordem = {
     'Nan':'#000000',
-    'Ascacidae':'#e26d67',
+    'Ascacidae':'#fece5f',
     'Anomura':'#007961',
     'Achelata':'#7a2c39',
     'Axiidea':'#b67262',
     'Brachyura':'#ee4454',
     'Caridea':'#3330b7',
-    'Gebiidea':'#58b5e1',
+    'Gebiidea':'#d867be',
     'Stenopodidea':'#b8e450',
     'Astacidea':'#a0a3fd',
     'Polychelida':'#deae9e',
-    'Grapsoidea':'#d867be',
-    'Xanthoidea':'#fece5f'
+    # 'Grapsoidea':'#58b5e1',
+    # 'Xanthoidea':'#fece5f'
 }
 
 cores_familia_naive = {
     # known errors are marked in black
     'Nan':'#000000',
     # infraorder: Ascacidae
-    'Nephropidae':'#e26d67',
+    'Nephropidae':'#fece5f',
         # p.s.: a cris classificou, mas não são decapoda.
         #'Cambaridae'
         #'Enoplometopidae'
@@ -62,7 +62,7 @@ cores_familia_naive = {
     'Portunidae':'#ee4454', 
     'Ovalipidae':'#ee4454', 
     'Leucosiidae':'#ee4454', 
-    # 'Grapsidae':'#ee4454',
+    'Grapsidae':'#ee4454',
     'Varunidae':'#ee4454', 
     'Sesarmidae':'#ee4454', 
     'Plagusiidae':'#ee4454', 
@@ -74,7 +74,7 @@ cores_familia_naive = {
     'Menippidae':'#ee4454',
     'Mithracidae':'#ee4454', 
     'Panopeidae':'#ee4454', 
-    # 'Xanthidae':'#ee4454', 
+    'Xanthidae':'#ee4454', 
     'Ocypodidae':'#ee4454',
     'Pseudothelphusidae':'#ee4454', 
     'Geryonidae':'#ee4454', 
@@ -130,21 +130,19 @@ cores_familia_naive = {
     'Bathypalaemonellidae':'#3330b7', 
     'Lysmatidae':'#3330b7',
     # infraorder: Gebiidea
-    'Upogebiidae':'#58b5e1',
+    'Upogebiidae':'#d867be',
     # infraorder: Stenopodídea
     'Stenopodidae':'#b8e450',
         # OBS: a partir daqui, não foram classificados pela Cris
     # infraorder: Astacidea
-    'Nephropidae':'#a0a3fd', 
+    # 'Nephropidae':'#a0a3fd', 
     'Parastacidae':'#a0a3fd', 
     'Enoplometopidae':'#a0a3fd', 
     'Cambaridae':'#a0a3fd',
     # infraorder: Polychelida
     'Polychelidae':'#deae9e',
     # infraorder: Grapsoidea
-    'Grapsidae': '#d867be',
-    # infraorder: Xanthoidea
-    'Xanthidae':'#fece5f'
+    # 'Grapsidae': '#d867be',
 }
 
 # cores_familia = {
