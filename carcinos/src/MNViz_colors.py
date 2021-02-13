@@ -18,8 +18,8 @@ cores_infraordem = {
     'Stenopodidea':'#b8e450',
     'Astacidea':'#a0a3fd',
     'Polychelida':'#deae9e',
-    # 'Grapsoidea':'#58b5e1',
-    # 'Xanthoidea':'#fece5f'
+    'Grapsoidea':'#58b5e1',
+    'Xanthoidea':'#8b9388'
 }
 
 cores_familia_naive = {
