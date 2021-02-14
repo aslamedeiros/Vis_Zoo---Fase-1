@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"labelFontSize": 12, "titleFontSize": 12}, "legend": {"labelFontSize": 12, "titleFontSize": 12}, "point": {"size": 50}, "title": {"fontSize": 16}}, "data": {"name": "data-b2f49719aacb92f62ebc855b8f2bc66f"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"type": "nominal", "field": "continent", "scale": {"domain": ["Am\u00e9rica Central", "Am\u00e9rica do Norte", "Desconhecido", "Europa", "NaN", "Oceania", "\u00c1frica", "\u00c1sia"], "range": ["#bbe272", "#255026", "#a6a6a6", "#208eb7", "#000000", "#feba53", "#a96370", "#db11ac"]}, "title": "Continent"}, "opacity": {"condition": {"value": 1, "selection": "selector004"}, "value": 0}, "tooltip": [{"type": "nominal", "field": "continent"}, {"type": "nominal", "field": "start_year"}, {"type": "quantitative", "field": "counts"}, {"type": "quantitative", "field": "cumulative_sum"}], "x": {"type": "ordinal", "field": "start_year", "title": "Sampling Year"}, "y": {"type": "quantitative", "field": "cumulative_sum", "scale": {"domain": [0, 120]}, "sort": {"field": "counts", "op": "count", "order": "descending"}, "title": ""}}, "selection": {"selector004": {"type": "multi", "fields": ["continent"], "bind": "legend"}}, "title": "Collection's temporal evolution per continent (ex. South America and missing values)", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b2f49719aacb92f62ebc855b8f2bc66f": [{"start_year": "1933", "continent": "Am\u00e9rica Central", "counts": 1, "cumulative_sum": 1}, {"start_year": "2008", "continent": "Am\u00e9rica Central", "counts": 5, "cumulative_sum": 6}, {"start_year": "2013", "continent": "Am\u00e9rica Central", "counts": 2, "cumulative_sum": 8}, {"start_year": "1935", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 1}, {"start_year": "1949", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 2}, {"start_year": "1956", "continent": "Am\u00e9rica do Norte", "counts": 2, "cumulative_sum": 4}, {"start_year": "1977", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 5}, {"start_year": "1984", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 6}, {"start_year": "1985", "continent": "Am\u00e9rica do Norte", "counts": 2, "cumulative_sum": 8}, {"start_year": "1986", "continent": "Am\u00e9rica do Norte", "counts": 2, "cumulative_sum": 10}, {"start_year": "1990", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 11}, {"start_year": "1993", "continent": "Am\u00e9rica do Norte", "counts": 2, "cumulative_sum": 13}, {"start_year": "1996", "continent": "Am\u00e9rica do Norte", "counts": 7, "cumulative_sum": 20}, {"start_year": "2000", "continent": "Am\u00e9rica do Norte", "counts": 1, "cumulative_sum": 21}, {"start_year": "1975", "continent": "Desconhecido", "counts": 1, "cumulative_sum": 1}, {"start_year": "1977", "continent": "Desconhecido", "counts": 1, "cumulative_sum": 2}, {"start_year": "1981", "continent": "Desconhecido", "counts": 2, "cumulative_sum": 4}, {"start_year": "None", "continent": "Desconhecido", "counts": 2, "cumulative_sum": 6}, {"start_year": "nan", "continent": "Desconhecido", "counts": 100, "cumulative_sum": 106}, {"start_year": "1960", "continent": "Europa", "counts": 1, "cumulative_sum": 1}, {"start_year": "1994", "continent": "Europa", "counts": 8, "cumulative_sum": 9}, {"start_year": "1997", "continent": "Europa", "counts": 5, "cumulative_sum": 14}, {"start_year": "2000", "continent": "Europa", "counts": 1, "cumulative_sum": 15}, {"start_year": "nan", "continent": "Europa", "counts": 9, "cumulative_sum": 24}, {"start_year": "1983", "continent": "NaN", "counts": 1, "cumulative_sum": 1}, {"start_year": "2009", "continent": "NaN", "counts": 2, "cumulative_sum": 3}, {"start_year": "1981", "continent": "Oceania", "counts": 1, "cumulative_sum": 1}, {"start_year": "1988", "continent": "Oceania", "counts": 1, "cumulative_sum": 2}, {"start_year": "1997", "continent": "Oceania", "counts": 3, "cumulative_sum": 5}, {"start_year": "2001", "continent": "Oceania", "counts": 2, "cumulative_sum": 7}, {"start_year": "2004", "continent": "Oceania", "counts": 2, "cumulative_sum": 9}, {"start_year": "1987", "continent": "\u00c1frica", "counts": 1, "cumulative_sum": 1}, {"start_year": "nan", "continent": "\u00c1frica", "counts": 5, "cumulative_sum": 6}, {"start_year": "1936", "continent": "\u00c1sia", "counts": 1, "cumulative_sum": 1}, {"start_year": "2002", "continent": "\u00c1sia", "counts": 1, "cumulative_sum": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
