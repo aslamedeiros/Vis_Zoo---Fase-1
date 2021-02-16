@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"labelFontSize": 12, "titleFontSize": 12}, "legend": {"labelFontSize": 12, "titleFontSize": 12}, "point": {"size": 50}, "title": {"fontSize": 16}}, "data": {"name": "data-05d5f2b2b7d20a120dc525290df6e915"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"type": "nominal", "field": "continent", "scale": {"domain": ["Africa", "Antarctica", "Asia", "Central America", "Europe", "North America", "Oceania"], "range": ["#a96370", "#b4ddd4", "#db11ac", "#bbe272", "#208eb7", "#255026", "#dbaea7"]}, "title": "Continent"}, "opacity": {"condition": {"value": 1, "selection": "selector004"}, "value": 0}, "tooltip": [{"type": "nominal", "field": "continent"}, {"type": "quantitative", "field": "start_year"}, {"type": "quantitative", "field": "counts"}, {"type": "quantitative", "field": "cumulative_sum"}], "x": {"type": "ordinal", "field": "start_year", "title": "Sampling Year"}, "y": {"type": "quantitative", "field": "cumulative_sum", "scale": {"domain": [0, 80]}, "sort": {"field": "counts", "op": "count", "order": "descending"}, "title": ""}}, "selection": {"selector004": {"type": "multi", "fields": ["continent"], "bind": "legend"}}, "title": "Collection's temporal evolution per continent (ex. South America and missing values)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-05d5f2b2b7d20a120dc525290df6e915": [{"start_year": 2007.0, "continent": "Africa", "counts": 1, "cumulative_sum": 1}, {"start_year": 2003.0, "continent": "Antarctica", "counts": 71, "cumulative_sum": 71}, {"start_year": 2012.0, "continent": "Antarctica", "counts": 1, "cumulative_sum": 72}, {"start_year": 1986.0, "continent": "Asia", "counts": 1, "cumulative_sum": 1}, {"start_year": 2001.0, "continent": "Asia", "counts": 2, "cumulative_sum": 3}, {"start_year": 1905.0, "continent": "Central America", "counts": 1, "cumulative_sum": 1}, {"start_year": 2001.0, "continent": "Central America", "counts": 11, "cumulative_sum": 12}, {"start_year": 2003.0, "continent": "Central America", "counts": 3, "cumulative_sum": 15}, {"start_year": 2004.0, "continent": "Central America", "counts": 3, "cumulative_sum": 18}, {"start_year": 1993.0, "continent": "Europe", "counts": 1, "cumulative_sum": 1}, {"start_year": 2011.0, "continent": "North America", "counts": 2, "cumulative_sum": 2}, {"start_year": 1994.0, "continent": "Oceania", "counts": 1, "cumulative_sum": 1}, {"start_year": 2013.0, "continent": "Oceania", "counts": 1, "cumulative_sum": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
