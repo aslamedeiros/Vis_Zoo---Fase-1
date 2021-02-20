@@ -24,15 +24,18 @@ cores_ordem = {
 
 ## Family
 cores_familia = {
+    # grupo 1
     'Magelonidae':'#238762',    # verde escuro 
     'Oweniidae':'#3CA67F',      # verde (centroide)  
     'Chaetopteridae':'#77c8a5', # verde
     'Amphinomidae':'#bbebd3',   # verde claro
+    # grupo 2
     'Lumbrineridae':'#e7e5df',  # azul claro 1
     'Dorvilleidae':'#b2c0d0',   # azul claro2
     'Oenonidae':'#7A9FBF',      # azul (centroide)
     'Eunicidae':'#3c81ae',      # azul
     'Onuphidae':'#00669a',      # azul escuro
+    # grupo 3
     'Syllidae':'#ffbd84', 
     'Typhloscolecidae':'#ffaa74', 
     'Aphroditidae':'#ff9760', 
@@ -45,9 +48,11 @@ cores_familia = {
     'Nephtyidae':'#f18e56',
     'Glyceridae':'#D96236',         # laranja 2 (centroide)
     'Tomopteridae':'#bf381b',
+    # grupo 4
     'Serpulidae':'#fbd0ad',
     'Sabellidae':'#f2b999', # cor de pele (centroide)
     'Sabellariidae':'#e8a287',
+    # grupo 5
     'Spionidae':'#d27666',
     'Ampharetidae':'#b48061',
     'Pectinariidae':'#a66c4b',  # marrom 1 (centroide),
@@ -55,6 +60,7 @@ cores_familia = {
     'Terebellidae':'#874c2c',
     'Cirratulidae':'#774124',
     'Flabelligeridae':'#683720',
+    # grupo 6
     'Sternaspidae':'#eebd93',
     'Orbiniidae':'#dfa47a',
     'Opheliidae':'#d28d60',
@@ -64,6 +70,8 @@ cores_familia = {
     'Scalibregmatidae':'#92420e',
     'Paraonidae':'#823606',
     'Maldanidae':'#732c02', # marrom 2 (centroide)
+
+    # erros conhecidos
     'NaN':'#0D0D0D',  # preto
 }
 
