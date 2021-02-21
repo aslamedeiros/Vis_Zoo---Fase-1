@@ -35,7 +35,7 @@ cores_familia = {
     'Oenonidae':'#7A9FBF',      # azul (centroide)
     'Eunicidae':'#3c81ae',      # azul
     'Onuphidae':'#00669a',      # azul escuro
-    # grupo 3
+    # grupo 3 (1)
     'Syllidae':'#ffbd84', 
     'Typhloscolecidae':'#ffaa74', 
     'Aphroditidae':'#ff9760', 
@@ -45,6 +45,7 @@ cores_familia = {
     'Lopadorrhynchidae':'#d94814',  # laranja (centroide)
     'Polynoidae':'#c83b03',
     'Nereididae':'#b73000',
+    # grupo 3 (2)
     'Nephtyidae':'#f18e56',
     'Glyceridae':'#D96236',         # laranja 2 (centroide)
     'Tomopteridae':'#bf381b',
