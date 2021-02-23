@@ -200,7 +200,7 @@ def brazilian_region(state):
     'Paraná': 'S',
     'Rondônia': 'N',
     'Ceará': 'NE',
-    'Maranhão': 'N',
+    'Maranhão': 'NE',
     'Rio Grande do Sul': 'S',
     'Paraíba': 'NE',
     'Distrito Federal': 'CO',
