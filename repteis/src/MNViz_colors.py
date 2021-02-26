@@ -82,6 +82,7 @@ cores_familia = {
 
 cores_continente= {
     "#N/D":"#000000",
+    #"nan":"#000000",  # tratei separado, por ora
     "América do Sul":"#40a43b",
     "América Central":"#bbe272",
     "América do Norte":"#255026",
