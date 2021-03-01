@@ -137,20 +137,23 @@ cores_familia_naive = {
     'Pseudochelidae':'#3330b7', 
     'Rhynchocinetidae':'#3330b7', 
 
+    
+    # infraorder: Polychelida - #deae9e
+    'Polychelidae':'#a0a3fd', # aloquei a cor do grupo Astacidea, que não está mais sendo usada (para diferenciar do outro marrom)
+    
+    # infraorder: Stenopodídea - b8e450
+    'Stenopodidae':'#b8e450',
+
     # infraorder: Gebiidea - #d867be
     'Upogebiidae':'#d867be',
 
-    # infraorder: Stenopodídea - b8e450
-    'Stenopodidae':'#b8e450',
-        # OBS: a partir daqui, não foram classificados pela Cris
+    # OBS: a partir daqui, não foram classificados pela Cris
     # infraorder: Astacidea
         #'Cambaridae':'#a0a3fd',    
         #'Enoplometopidae':'#a0a3fd', 
         #'Nephropidae':'#a0a3fd', 
         #'Parastacidae':'#a0a3fd', 
     
-    # infraorder: Polychelida - #deae9e
-    'Polychelidae':'#a0a3fd', # aloquei a cor do grupo Astacidea, que não está mais sendo usada (para diferenciar do outro marrom)
     
     # infraorder: Grapsoidea
     # 'Grapsidae': '#d867be',
