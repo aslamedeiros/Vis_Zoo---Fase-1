@@ -18,7 +18,7 @@ cores_infraordem = {
     'Stenopodidea':'#b8e450',
     'Astacidea':'#a0a3fd',
     'Polychelida':'#deae9e',
-    'Grapsoidea':'#58b5e1',
+    'Grapsoidea':'#58b5e1',  # removed as asked by Cristiana Serejo (It should be reported as Brachyura)
     'Xanthoidea':'#8b9388'
 }
 
