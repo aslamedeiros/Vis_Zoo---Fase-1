@@ -12,7 +12,9 @@ cores_ordem = {
     'Phyllodocida':'#732C02', # marrom2
     'Terebellida':'#ed845e', # laranja claro1
     'Scolecida':'#D94B18', # laranja 2
+    'Sedentaria_order_incertae_sedis':'#D94B18',  # OBS: não manter junto com scolecida
     np.NAN:'#0D0D0D',  # preto
+    'Order_incertae_sedis':'#0D0D0D',  # preto
     
     # ordens não citadas na planilha:
     'Sipuncula':'#D9C2AD', # bege
@@ -79,7 +81,7 @@ cores_familia = {
 
 ## CONTINENTE
 cores_continente= {
-    "#N/D":"#000000",
+    #"#N/D":"#000000",
     "NaN":"#000000",
     "South America":"#40a43b",
     "Central America":"#bbe272",
