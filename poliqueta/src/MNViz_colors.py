@@ -26,18 +26,18 @@ cores_ordem = {
 
 ## Family
 cores_familia = {
-    # grupo 1
+    # grupo 1 - Order_incertae_sedis
     'Magelonidae':'#238762',    # verde escuro 
     'Oweniidae':'#3CA67F',      # verde (centroide)  
     'Chaetopteridae':'#77c8a5', # verde
     'Amphinomidae':'#bbebd3',   # verde claro
-    # grupo 2
+    # grupo 2 - Eunicida
     'Lumbrineridae':'#e7e5df',  # azul claro 1
     'Dorvilleidae':'#b2c0d0',   # azul claro2
     'Oenonidae':'#7A9FBF',      # azul (centroide)
     'Eunicidae':'#3c81ae',      # azul
     'Onuphidae':'#00669a',      # azul escuro
-    # grupo 3 (1)
+    # grupo 3 (1) - Phyllodocida
     'Syllidae':'#ffbd84', 
     'Typhloscolecidae':'#ffaa74', 
     'Aphroditidae':'#ff9760', 
@@ -47,24 +47,26 @@ cores_familia = {
     'Lopadorrhynchidae':'#d94814',  # laranja (centroide)
     'Polynoidae':'#c83b03',
     'Nereididae':'#b73000',
-    # grupo 3 (2)
+    # grupo 3 (2) - Phyllodocida
     'Nephtyidae':'#f18e56',
     'Glyceridae':'#D96236',         # laranja 2 (centroide)
     'Tomopteridae':'#bf381b',
-    # grupo 4
+    # grupo 4 - Sabellida
     'Serpulidae':'#fbd0ad',
     'Sabellidae':'#f2b999', # cor de pele (centroide)
     'Sabellariidae':'#e8a287',
-    # grupo 5
-    'Spionidae':'#d27666',
-    'Ampharetidae':'#b48061',
-    'Pectinariidae':'#a66c4b',  # marrom 1 (centroide),
-    'Trichobranchidae':'#975b39',
-    'Terebellidae':'#874c2c',
-    'Cirratulidae':'#774124',
-    'Flabelligeridae':'#683720',
-    # grupo 6
-    'Sternaspidae':'#eebd93',
+    # grupo 5 - Spionida
+    'Spionidae':'#b8b4fe',
+    # grupo 6 - Terebeliida
+    'Ampharetidae':'#ffc4dc',  #d27666
+    'Pectinariidae':'#ffacc6',  #b48061 # marrom 1 (centroide),
+    'Trichobranchidae':'#f594b0',  #a66c4b
+    'Terebellidae':'#dd7c9a',  #975b39
+    'Cirratulidae':'#c66485',  #874c2c
+    'Flabelligeridae':'#af4c70',  #774124  
+    'Sternaspidae':'#821f48',  #683720  # vermelho (nova centroide)
+    # grupo 7 - Sedentaria_Order_incertae_sedis
+    # cor sobrando: '#eebd93'
     'Orbiniidae':'#dfa47a',
     'Opheliidae':'#d28d60',
     'Capitellidae':'#c37746',
@@ -75,7 +77,8 @@ cores_familia = {
     'Maldanidae':'#732c02', # marrom 2 (centroide)
 
     # erros conhecidos
-    'NaN':'#0D0D0D',  # preto
+    #'NaN':'#0D0D0D',  # preto
+    'Non-identified': '#0D0D0D' 
 }
 
 
