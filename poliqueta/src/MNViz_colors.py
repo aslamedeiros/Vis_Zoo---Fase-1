@@ -32,6 +32,7 @@ cores_familia = {
     'Oweniidae':'#3CA67F',      # verde (centroide)  
     'Chaetopteridae':'#77c8a5', # verde
     'Amphinomidae':'#bbebd3',   # verde claro
+    'Euphrosinidae':'#cce8cc',
     # grupo 2 - Eunicida
     'Lumbrineridae':'#e7e5df',  # azul claro 1
     'Dorvilleidae':'#b2c0d0',   # azul claro2
@@ -39,33 +40,46 @@ cores_familia = {
     'Eunicidae':'#3c81ae',      # azul
     'Onuphidae':'#00669a',      # azul escuro
     # grupo 3 (1) - Phyllodocida
-    'Syllidae':'#ffbd84', 
-    'Typhloscolecidae':'#ffaa74', 
-    'Aphroditidae':'#ff9760', 
-    'Acoetidae':'#ff814b', 
-    'Chrysopetalidae':'#fc6b36', 
-    'Eulepethidae':'#eb5824',
-    'Lopadorrhynchidae':'#d94814',  # laranja (centroide)
-    'Polynoidae':'#c83b03',
-    'Nereididae':'#b73000',
+    'Syllidae':'#FFE5CA', 
+    'Typhloscolecidae':'#FFCEAC', 
+    'Aphroditidae':'#FFB891', 
+    'Acoetidae':'#FFBD84', 
+    'Chrysopetalidae':'#FFAA74', 
+    'Eulepethidae':'#FFA178',
+    'Lopadorrhynchidae':'#FF9760',  # laranja (centroide)
+    'Polynoidae':'#F38C60',
+    'Nereididae':'#F18E56',
     # grupo 3 (2) - Phyllodocida
-    'Nephtyidae':'#f18e56',
-    'Glyceridae':'#D96236',         # laranja 2 (centroide)
-    'Tomopteridae':'#bf381b',
+    'Nephtyidae':'#FF814B',
+    'Glyceridae':'#E6774B',         # laranja 2 (centroide)
+    'Goniadidae':'#FC6B36',
+    'Tomopteridae':'#D96236',
+    'Pilargidae':"#EB5824",
+    'Lacydoniidae':'#D94814',
+    'Iospilidae':'#C04A21',
+    'Pontodoridae':'#C83B03',
+    'Sigalionidae':'#BF381B',
+    'Hesionidae':'#B23209',
+    'Sphaerodoridae':'#B73000',
+    'Phyllodocidae':'#8B0000',
     # grupo 4 - Sabellida
-    'Serpulidae':'#fbd0ad',
-    'Sabellidae':'#f2b999', # cor de pele (centroide)
-    'Sabellariidae':'#e8a287',
+    'Serpulidae':'#bf0753',
+    'Sabellidae':'#f17997', # cor de pele (centroide)
+    #'Iospilidae':'#e8a287',
     # grupo 5 - Spionida
-    'Spionidae':'#b8b4fe',
+    'Spionidae':'#c9d5ff', 
+    'Trochochaetidae': '#b8b4fe',
+    'Poecilochaetidae': '#a78ff6',
+    'Apistobranchidae': '#9762e4',
+    'Longosomatidae': '#7a30c8',
     # grupo 6 - Terebeliida
-    'Ampharetidae':'#ffc4dc',  #d27666
-    'Pectinariidae':'#ffacc6',  #b48061 # marrom 1 (centroide),
-    'Trichobranchidae':'#f594b0',  #a66c4b
+    'Ampharetidae':'#821f48',  #d27666
+    'Pectinariidae':'#af4c70',  #b48061 # marrom 1 (centroide),
+    'Trichobranchidae':'#c66485',  #a66c4b
     'Terebellidae':'#dd7c9a',  #975b39
-    'Cirratulidae':'#c66485',  #874c2c
-    'Flabelligeridae':'#af4c70',  #774124  
-    'Sternaspidae':'#821f48',  #683720  # vermelho (nova centroide)
+    'Cirratulidae':'#f594b0',  #874c2c
+    'Flabelligeridae':'#ffacc6',  #774124  
+    'Sternaspidae':'#ffc4dc',  #683720  # vermelho (nova centroide)
     # grupo 7 - Sedentaria_Order_incertae_sedis
     # cor sobrando: '#eebd93'
     'Orbiniidae':'#dfa47a',
