@@ -2,7 +2,7 @@
 
 Visualizações das bases de dados e coleções do Museu Nacional. Esse repositório é constituído por arquivos pertencentes ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos nele gerados devem ser referenciados a esta instituição. 
 
-As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, defendida em março de 2021, orientado pela professora Asla Medeiros e Sá. O documento produzido está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711). 
+As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, defendida em março de 2021, orientado pela professora Asla Medeiros e Sá. O documento produzido, intitulado *Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*, está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711). 
 
 Adicionalmente dois artigos foram publicados:
 * 2022 - Asla Medeiros e Sá, Franklin Alves de Oliveira and Bruno Schneider et al.: [Visually Overviewing Biodiversity Open Data Digital Collections](https://www.scienceopen.com/hosted-document?doi=10.14236/ewic/ODAK22.4), ODAK 2022: Symposium on Open Data and Knowledge for a Post-Pandemic Era, Brighton, UK. 
