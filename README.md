@@ -1,6 +1,6 @@
 # Vis_Zoo
 
-Visualizações das bases de dados e coleções do Museu Nacional. Esse repositório é constituído por arquivos pertencentes ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos nele gerados devem ser referenciados a esta instituição. 
+Visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público.
 
 As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, defendida em março de 2021, orientado pela professora Asla Medeiros e Sá. O documento produzido, intitulado *Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*, está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711). 
 
