@@ -1,6 +1,10 @@
 # MN_Viz
 
-Visualizações das bases de dados e coleções do Museu Nacional. Esse repositório é constituído por arquivos pertencentes ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos nele gerados são de propriedade dessa instituição. 
+Visualizações das bases de dados e coleções do Museu Nacional. Esse repositório é constituído por arquivos pertencentes ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos nele gerados devem ser referenciados a esta instituição. 
+
+As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, orientado pela professora Asla Medeiros e Sá. O documento produzido está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711).
+
+O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional.
 
 ## Requisitos:
 
