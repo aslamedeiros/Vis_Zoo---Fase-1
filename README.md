@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 
 -----
-**Nota:** Esse projeto ainda é um trabalho em progresso e as visualizações aqui criadas estão em constante aperfeiçoamento. 
+**Nota:** Este repositório corresponde à Fase 1 do projeto que foi concluída em 2021. Em breve disponibilizaremos aqui o link para a Fase 2 do projeto. 
 
 -----
 
