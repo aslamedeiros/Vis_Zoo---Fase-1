@@ -7,7 +7,7 @@ As visualizações foram desenvolvidas como dissertação de Mestrado do aluno F
 Adicionalmente dois artigos foram publicados:
 * 2022 - Asla Medeiros e Sá, Franklin Alves de Oliveira and Bruno Schneider et al.: [Visually Overviewing Biodiversity Open Data Digital Collections](https://www.scienceopen.com/hosted-document?doi=10.14236/ewic/ODAK22.4), ODAK 2022: Symposium on Open Data and Knowledge for a Post-Pandemic Era, Brighton, UK. 
 
-* 2021 - [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
+* 2021 - Asla Medeiros e Sá, Franklin Alves de Oliveira e Cristiana Silveira Serejo: [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
 
 O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional.
 
