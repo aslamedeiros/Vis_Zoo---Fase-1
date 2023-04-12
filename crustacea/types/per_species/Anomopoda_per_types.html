@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-741f6ed4473ad2268392abd0dd569136"}, "mark": "square", "encoding": {"color": {"type": "ordinal", "field": "start_year", "legend": {"columns": 1, "title": "Start Year"}}, "x": {"type": "nominal", "field": "type_status", "title": "Type"}, "y": {"type": "nominal", "field": "genus_and_species", "title": "Species (Total of 3)"}}, "height": 200, "title": "Order: Anomopoda", "width": 200, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-741f6ed4473ad2268392abd0dd569136": [{"cataloged_year": 2006, "count": "1", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Macrothrix", "species": "Elegans", "genus_and_species": "Macrothrix elegans", "type_status": "Alotipo", "determiner_first_and_last_name": "Lourdes Loureiro", "determiner_first_name": "Lourdes", "determiner_last_name": "Loureiro", "depth": "0", "species_author": "Sars, 1901", "order": "Anomopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Macrothricidae", "subfamily": "Macrothricinae", "tribe": "Macrothricini", "determined_year": null, "start_year": 1998.0, "holotipo_year": "1901"}, {"cataloged_year": 2006, "count": "30", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Bosminopsis", "species": "Deitersi", "genus_and_species": "Bosminopsis deitersi", "type_status": "Holotipo", "determiner_first_and_last_name": "Lourdes Loureiro", "determiner_first_name": "Lourdes", "determiner_last_name": "Loureiro", "depth": "0", "species_author": "Richard, 1895", "order": "Anomopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Bosminidae", "subfamily": "Bosmininae", "tribe": "Bosminini", "determined_year": null, "start_year": 2001.0, "holotipo_year": "1895"}, {"cataloged_year": 2009, "count": "5", "class": "Malacostraca", "kingdom": "Animalia", "genus": "Acroperus", "species": "Tupinamba", "genus_and_species": "Acroperus tupinamba", "type_status": "Paratipo", "determiner_first_and_last_name": "Lourdes Loureiro", "determiner_first_name": "Lourdes", "determiner_last_name": "Loureiro", "depth": "0", "species_author": "Sinev & Elmoor-Loureiro, 2010", "order": "Anomopoda", "suborder": "Nan", "infraorder": "Nan", "superfamily": "Nan", "family": "Chydoridae", "subfamily": "Aloninae", "tribe": "Alonini", "determined_year": null, "start_year": 2006.0, "holotipo_year": "2010"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
