@@ -1,4 +1,4 @@
-# Vis_Zoo
+# Vis_Zoo   Fase1
 
 Visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público.
 
