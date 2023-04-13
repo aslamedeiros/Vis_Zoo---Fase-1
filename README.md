@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ### Pastas:
 > - **colecoes:** essa pasta contém todas as visualizações de dados agregados para todas as coleções do Museu Nacional (MN).
-> - **crustacea e carcinos:** armazena todos os códigos em Python 3 (arquivos `.ipynb`) e arquivos de visualização criados para a base de dados `MN-Crustacea`.
+> - **crustacea e carcinos:** armazena códigos em Python 3 (arquivos `.ipynb`) e arquivos de visualização criados para a base de dados `MN-Crustacea`.
 > - **repteis:** esse diretório contém todo o material criado para exploração e visualização da base de dados `MN-Repteis`.
 > - **poliqueta:** esse diretório contém todo o material criado para exploração e visualização da base de dados `MN-Polychaeta`.
 
