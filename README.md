@@ -5,6 +5,9 @@ Visualizações das bases de dados de algumas coleções de biodiversidade do Mu
 As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, defendida em março de 2021, orientado pela professora Asla Medeiros e Sá. O documento produzido, intitulado *Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*, está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711). 
 
 Adicionalmente dois artigos foram publicados:
+* 2022 - Camila Simões M. A. Messias, Franklin Alves de Oliveira, Monique Cristina dos Santos,
+Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection database from National Museum/UFRJ using information visualization techniques to analyze and manage biological collection](https://drive.google.com/file/d/1d04wpW3YLqSkw6AP_iZVVSYZZiwcFxtT/view?usp=share_link) presented in [SILPOLY 2022](www.silpoly2022.com), Puerto Varas, Chile, on 22-25 November 2022.
+
 * 2022 - Asla Medeiros e Sá, Franklin Alves de Oliveira and Bruno Schneider et al.: [Visually Overviewing Biodiversity Open Data Digital Collections](https://www.scienceopen.com/hosted-document?doi=10.14236/ewic/ODAK22.4), ODAK 2022: Symposium on Open Data and Knowledge for a Post-Pandemic Era, Brighton, UK. 
 
 * 2021 - Asla Medeiros e Sá, Franklin Alves de Oliveira e Cristiana Silveira Serejo: [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
