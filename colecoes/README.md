@@ -11,6 +11,6 @@ Esta pasta armazena os *Waffle Charts* das coleções do museu por departamento 
 <br>
 
 -----
-**Nota:** Esta Fase 1 do projeto foi encerrada em 2021 e as imagens disponíveis correspondem aos dados de 2020. 
+**Nota:** Esta Fase 1 do projeto foi encerrada em 2021 e os gráficos disponíveis correspondem aos dados de 2020. 
 
 -----
