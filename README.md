@@ -6,7 +6,7 @@ As visualizações foram desenvolvidas como dissertação de Mestrado do aluno F
 
 Adicionalmente dois artigos foram publicados:
 * 2022 - Camila Simões M. A. Messias, Franklin Alves de Oliveira, Monique Cristina dos Santos,
-Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection database from National Museum/UFRJ using information visualization techniques to analyze and manage biological collection](https://drive.google.com/file/d/1d04wpW3YLqSkw6AP_iZVVSYZZiwcFxtT/view?usp=share_link) presented in [SILPOLY 2022](www.silpoly2022.com), Puerto Varas, Chile, on 22-25 November 2022.
+Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection database from National Museum/UFRJ using information visualization techniques to analyze and manage biological collection](https://drive.google.com/file/d/1d04wpW3YLqSkw6AP_iZVVSYZZiwcFxtT/view?usp=share_link) presented in SILPOLY 2022, Puerto Varas, Chile, on 22-25 November 2022.
 
 * 2022 - Asla Medeiros e Sá, Franklin Alves de Oliveira and Bruno Schneider et al.: [Visually Overviewing Biodiversity Open Data Digital Collections](https://www.scienceopen.com/hosted-document?doi=10.14236/ewic/ODAK22.4), ODAK 2022: Symposium on Open Data and Knowledge for a Post-Pandemic Era, Brighton, UK. 
 
