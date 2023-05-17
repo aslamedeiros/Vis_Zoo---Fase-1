@@ -2,9 +2,9 @@
 
 No presente projeto, propusemos visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público. Um exemplo de gráfico proposto pode ser acessado [aqui](https://aslamedeiros.github.io/Vis_Zoo---Fase-1/).
 
-As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, intitulada [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. 
+As visualizações foram desenvolvidas como trabalho de Mestrado do aluno Franklin Alves de Oliveira, documentado na dissertação [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. 
 
-Adicionalmente dois artigos foram publicados:
+Adicionalmente os seguintes artigos foram publicados:
 * 2022 - Camila Simões M. A. Messias, Franklin Alves de Oliveira, Monique Cristina dos Santos,
 Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection database from National Museum/UFRJ using information visualization techniques to analyze and manage biological collection](https://drive.google.com/file/d/1d04wpW3YLqSkw6AP_iZVVSYZZiwcFxtT/view?usp=share_link) presented in SILPOLY 2022, Puerto Varas, Chile, on 22-25 November 2022.
 
