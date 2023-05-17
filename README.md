@@ -1,8 +1,8 @@
 # Vis_Zoo   Fase1
 
-Visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público.
+No presente projeto, propusemos visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público. Um exemplo de gráfico proposto pode ser acessado em [https://aslamedeiros.github.io/Vis_Zoo---Fase-1/](https://aslamedeiros.github.io/Vis_Zoo---Fase-1/).
 
-As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, defendida em março de 2021, orientado pela professora Asla Medeiros e Sá. O documento produzido, intitulado *Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*, está disponível [aqui](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711). 
+As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, intitulada [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. 
 
 Adicionalmente dois artigos foram publicados:
 * 2022 - Camila Simões M. A. Messias, Franklin Alves de Oliveira, Monique Cristina dos Santos,
@@ -12,7 +12,13 @@ Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection
 
 * 2021 - Asla Medeiros e Sá, Franklin Alves de Oliveira e Cristiana Silveira Serejo: [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
 
-O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional.
+O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional, agradecemos nominalmente à: 
+*Cristiana Silveira Serejo - Carcinologia
+*Paulo Passos - Herpetologia
+*Manoela Woitovicz Cardoso - Herpetologia
+*Pedro Pinna - Herpetologia
+*Joana Zanol - Polychaeta
+*Camila Messias - Polychaeta
 
 ## Requisitos:
 
