@@ -1,6 +1,6 @@
 # Vis_Zoo   Fase1
 
-No presente projeto, propusemos visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público. Um exemplo de gráfico proposto pode ser acessado em [https://aslamedeiros.github.io/Vis_Zoo---Fase-1/](https://aslamedeiros.github.io/Vis_Zoo---Fase-1/).
+No presente projeto, propusemos visualizações das bases de dados de algumas coleções de biodiversidade do Museu Nacional. Os dados que serviram de base para as visualizações pertencem ao [Museu Nacional](http://www.museunacional.ufrj.br/) e todos os códigos e gráficos gerados a partir dos dados devem fazer referência a esta instituição. As planilhas originais foram removidas do presente repositório para a finalidade de torná-lo público. Um exemplo de gráfico proposto pode ser acessado [aqui](https://aslamedeiros.github.io/Vis_Zoo---Fase-1/).
 
 As visualizações foram desenvolvidas como dissertação de Mestrado do aluno Franklin Alves de Oliveira, intitulada [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. 
 
