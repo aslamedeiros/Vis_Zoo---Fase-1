@@ -13,12 +13,9 @@ Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection
 * 2021 - Asla Medeiros e Sá, Franklin Alves de Oliveira e Cristiana Silveira Serejo: [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
 
 O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional, agradecemos nominalmente à: 
-*Cristiana Silveira Serejo - Carcinologia
-*Paulo Passos - Herpetologia
-*Manoela Woitovicz Cardoso - Herpetologia
-*Pedro Pinna - Herpetologia
-*Joana Zanol - Polychaeta
-*Camila Messias - Polychaeta
+*Cristiana Silveira Serejo - Carcinologia;
+*Paulo Passos, *Manoela Woitovicz Cardoso e Pedro Pinna - Herpetologia;
+*Joana Zanol e Camila Messias - Polychaeta
 
 ## Requisitos:
 
