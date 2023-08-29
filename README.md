@@ -4,7 +4,21 @@ No presente projeto, propusemos visualizações das bases de dados de algumas co
 
 As visualizações foram desenvolvidas como trabalho de Mestrado do aluno Franklin Alves de Oliveira, documentado na dissertação [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. 
 
-Adicionalmente os seguintes artigos foram publicados:
+# Pessoas:
+- Coordenação:
+  - [Asla Medeiros e Sá](https://sites.google.com/view/aslasa/home), FGV EMAp;
+  - trabalho de Mestrado da FGV EMAp do aluno [Franklin Alves de Oliveira](https://github.com/Franklin-oliveira), documentado na dissertação [*Visualização de coleções científicas digitais de biodiversidade: um framework em Altair, Python*](https://bibliotecadigital.fgv.br/dspace;handleocy-listommunity-list/handle/10438/30711), defendida em março de 2021, orientado por Asla Medeiros e Sá. Um exemplo de gráfico proposto pode ser acessado [aqui](https://aslamedeiros.github.io/Vis_Zoo---Fase-1/). 
+
+- Colaboradores:
+  * [Karina Rodriguez Echavarria](https://research.brighton.ac.uk/en/persons/karina-rodriguez-echavarria), University of Brighton, UK;
+  * **Bruno Schneider**.
+
+- Curadores e técnicos de coleções zoológicas do [PPGZoo - Museu Nacional - UFRJ](https://ppgzoo.museunacional.ufrj.br/index.html). 
+  * **Cristiana Silveira Serejo** - Carcinologia;
+  * **Paulo Passos**, **Manoela Woitovicz Cardoso** e **Pedro Pinna** - Herpetologia;
+  * **Joana Zanol** e **Camila Messias** - Polychaeta.
+
+# Artigos publicados:
 * 2022 - Camila Simões M. A. Messias, Franklin Alves de Oliveira, Monique Cristina dos Santos,
 Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection database from National Museum/UFRJ using information visualization techniques to analyze and manage biological collection](https://drive.google.com/file/d/1d04wpW3YLqSkw6AP_iZVVSYZZiwcFxtT/view?usp=share_link) presented in SILPOLY 2022, Puerto Varas, Chile, on 22-25 November 2022.
 
@@ -12,10 +26,10 @@ Asla Medeiros e Sá and Joana Zanol - [New perspectives of Polychaeta collection
 
 * 2021 - Asla Medeiros e Sá, Franklin Alves de Oliveira e Cristiana Silveira Serejo: [Visualização de Informação como Ferramenta de Apoio à  Curadoria de Dados em Coleções Biológicas](https://periodicos.unb.br/index.php/museologia/article/view/36709), Revista Museologia & Interdiciplinariedade, v10, n. especial 2021. 
 
-O trabalho foi feito em colaboração com os curadores e técnicos de coleções do Museu Nacional. Agradecemos nominalmente à: 
-Cristiana Silveira Serejo - Carcinologia;
-Paulo Passos, Manoela Woitovicz Cardoso e Pedro Pinna - Herpetologia;
-Joana Zanol e Camila Messias - Polychaeta
+-----
+**Nota:** Este repositório corresponde à Fase 1 do projeto que foi **concluída em 2021**. Todos os dados que serviram de base para estas visualizações são referentes à bases de dados de 2020. [Página atualizada do projeto VisZoo](https://github.com/aslamedeiros/Vis_Zoo). 
+
+-----
 
 ## Requisitos:
 
@@ -60,8 +74,5 @@ pip install -r requirements.txt
 > - **repteis:** contém todo o material criado para exploração e visualização da base de dados `MN-Repteis`.
 > - **poliqueta:** contém todo o material criado para exploração e visualização da base de dados `MN-Polychaeta`.
 
------
-**Nota:** Este repositório corresponde à Fase 1 do projeto que foi concluída em 2021. Todos os dados que serviram de base para estas visualizações são referentes à bases de dados de 2020. Em breve disponibilizaremos aqui o link para a Fase 2 do projeto. 
 
------
 
